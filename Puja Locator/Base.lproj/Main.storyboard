@@ -24,10 +24,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Main Page-->
         <scene sceneID="RJR-sC-Xa4">
             <objects>
-                <viewController id="eAZ-Rs-OEK" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3I-j6-xe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="eAZ-Rs-OEK" userLabel="Main Page" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ozk-uF-yv6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +42,6 @@
                         <viewLayoutGuide key="safeArea" id="FaS-ix-Qxg"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s3I-j6-xe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-82.400000000000006" y="-564.46776611694156"/>
         </scene>
