@@ -14,6 +14,7 @@
 		5F3AD8E722AAC73D00796BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AD8E522AAC73D00796BD9 /* LaunchScreen.storyboard */; };
 		5F3AD8F222AAC73D00796BD9 /* Puja_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD8F122AAC73D00796BD9 /* Puja_LocatorTests.swift */; };
 		5F3AD8FD22AAC73D00796BD9 /* Puja_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD8FC22AAC73D00796BD9 /* Puja_LocatorUITests.swift */; };
+		5F3AD90B22AACAD700796BD9 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AD90A22AACAD600796BD9 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F3AD8F822AAC73D00796BD9 /* Puja LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puja LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AD8FC22AAC73D00796BD9 /* Puja_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puja_LocatorUITests.swift; sourceTree = "<group>"; };
 		5F3AD8FE22AAC73D00796BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3AD90A22AACAD600796BD9 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				5F3AD8DE22AAC72E00796BD9 /* ViewController.swift */,
 				5F3AD8E022AAC72E00796BD9 /* Main.storyboard */,
 				5F3AD8E322AAC73D00796BD9 /* Assets.xcassets */,
+				5F3AD90A22AACAD600796BD9 /* background.jpg */,
 				5F3AD8E522AAC73D00796BD9 /* LaunchScreen.storyboard */,
 				5F3AD8E822AAC73D00796BD9 /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3AD8E722AAC73D00796BD9 /* LaunchScreen.storyboard in Resources */,
+				5F3AD90B22AACAD700796BD9 /* background.jpg in Resources */,
 				5F3AD8E422AAC73D00796BD9 /* Assets.xcassets in Resources */,
 				5F3AD8E222AAC72E00796BD9 /* Main.storyboard in Resources */,
 			);
