@@ -20,7 +20,6 @@ extension UITextField {
         self.layer.shadowOffset = CGSize(width: 0, height: 3.0)
         self.layer.shadowOpacity = 1.0
         self.layer.shadowRadius = 0
-        self.attributedPlaceholder = NSAttributedString(string: "Email ID", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
         
     }
     
@@ -40,21 +39,25 @@ class ViewController: UIViewController {
         didSet{
             EmailID.setPadding()
             EmailID.setBottomBorder()
+            EmailID.attributedPlaceholder = NSAttributedString(string: "Email ID", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
             EmailID.tintColor = UIColor.lightGray
             EmailID.setIcon(image: #imageLiteral(resourceName: "email icon-2"))
         }
     }
     
+    @IBOutlet weak var LoginBtn: UIButton!
     
     @IBOutlet weak var Password: UITextField! {
         didSet{
             Password.setPadding()
             Password.setBottomBorder()
+            Password.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
             Password.tintColor = UIColor.lightGray
-            Password.setIcon(image: #imageLiteral(resourceName: "request icon"))
+            Password.setIcon(image: #imageLiteral(resourceName: "password icon-2"))
             
         }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
