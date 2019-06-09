@@ -1041,7 +1041,7 @@
         <!--Q3-->
         <scene sceneID="yxQ-Oh-kNo">
             <objects>
-                <viewController id="hwe-gu-e2M" userLabel="Q3" sceneMemberID="viewController">
+                <viewController id="hwe-gu-e2M" userLabel="Q3" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rkP-vc-2Lu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1114,7 +1114,7 @@
         <!--Q4-->
         <scene sceneID="4rR-Ji-Esf">
             <objects>
-                <viewController id="One-wt-YCM" userLabel="Q4" sceneMemberID="viewController">
+                <viewController id="One-wt-YCM" userLabel="Q4" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q20-Y3-FaM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1187,7 +1187,7 @@
         <!--Q5-->
         <scene sceneID="v1a-jA-CXk">
             <objects>
-                <viewController id="SST-2M-6uX" userLabel="Q5" sceneMemberID="viewController">
+                <viewController id="SST-2M-6uX" userLabel="Q5" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxr-b7-80K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1260,7 +1260,7 @@
         <!--Q6-->
         <scene sceneID="5p6-Ki-jED">
             <objects>
-                <viewController id="SY4-eA-hnN" userLabel="Q6" sceneMemberID="viewController">
+                <viewController id="SY4-eA-hnN" userLabel="Q6" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fb4-oo-LaJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1333,7 +1333,7 @@
         <!--Q11-->
         <scene sceneID="Koz-E9-ScY">
             <objects>
-                <viewController id="VbD-8N-7sg" userLabel="Q11" sceneMemberID="viewController">
+                <viewController id="VbD-8N-7sg" userLabel="Q11" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dbs-QY-WxL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1407,7 +1407,7 @@
         <!--Q10-->
         <scene sceneID="fQR-oB-qX8">
             <objects>
-                <viewController id="Eqt-gz-y8Z" userLabel="Q10" sceneMemberID="viewController">
+                <viewController id="Eqt-gz-y8Z" userLabel="Q10" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="53h-hO-wrF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1479,7 +1479,7 @@
         <!--Q9-->
         <scene sceneID="jor-8c-n6v">
             <objects>
-                <viewController id="IHr-K1-a9v" userLabel="Q9" sceneMemberID="viewController">
+                <viewController id="IHr-K1-a9v" userLabel="Q9" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nQL-Tx-s8Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1551,7 +1551,7 @@
         <!--Q8-->
         <scene sceneID="Dx9-HM-gNh">
             <objects>
-                <viewController id="M3q-QI-9Ba" userLabel="Q8" sceneMemberID="viewController">
+                <viewController id="M3q-QI-9Ba" userLabel="Q8" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LgM-aI-3uU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1624,7 +1624,7 @@
         <!--Q7-->
         <scene sceneID="slu-iu-0vy">
             <objects>
-                <viewController id="ipz-FE-9qp" userLabel="Q7" sceneMemberID="viewController">
+                <viewController id="ipz-FE-9qp" userLabel="Q7" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C7P-k2-ZMe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1697,7 +1697,7 @@
         <!--Q1-->
         <scene sceneID="gYv-5m-ppi">
             <objects>
-                <viewController id="4vF-KO-9cX" userLabel="Q1" customClass="Q1" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4vF-KO-9cX" userLabel="Q1" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aYk-9d-j3M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1770,7 +1770,7 @@
         <!--Q2-->
         <scene sceneID="fy7-cA-7L3">
             <objects>
-                <viewController id="URE-2a-0oh" userLabel="Q2" customClass="scrollFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="URE-2a-0oh" userLabel="Q2" customClass="ansFAQs" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rjt-7k-9RO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

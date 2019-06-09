@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "Q:  How can I book/offer my Sankalp for Rudrapuja?"; ObjectID = "3xh-os-rmW"; */
+"3xh-os-rmW.normalTitle" = "Q:  How can I book/offer my Sankalp for Rudrapuja?";
+
+/* Class = "UIButton"; normalTitle = "Q:  What is Rudrapuja?"; ObjectID = "9zI-yv-W9c"; */
+"9zI-yv-W9c.normalTitle" = "Q:  What is Rudrapuja?";
+
+/* Class = "UIButton"; normalTitle = "Q: Why is Rudrapuja performed or what is its significance?"; ObjectID = "B7h-Qa-IWe"; */
+"B7h-Qa-IWe.normalTitle" = "Q: Why is Rudrapuja performed or what is its significance?";
+
+/* Class = "UITextField"; placeholder = "Email ID"; ObjectID = "FvT-gO-4cj"; */
+"FvT-gO-4cj.placeholder" = "Email ID";
+
+/* Class = "UIButton"; normalTitle = "Q:  What do chants signify?"; ObjectID = "NIX-cu-ih7"; */
+"NIX-cu-ih7.normalTitle" = "Q:  What do chants signify?";
+
+/* Class = "UILabel"; text = "Puja Locator"; ObjectID = "O0y-BQ-uXq"; */
+"O0y-BQ-uXq.text" = "Puja Locator";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "UaA-Bv-qVR"; */
+"UaA-Bv-qVR.normalTitle" = "LOGIN";
+
+/* Class = "UIButton"; normalTitle = "Q:  What are the benefits of Sankalp?"; ObjectID = "Uga-wE-z27"; */
+"Uga-wE-z27.normalTitle" = "Q:  What are the benefits of Sankalp?";
+
+/* Class = "UIButton"; normalTitle = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?"; ObjectID = "X39-2M-lWx"; */
+"X39-2M-lWx.normalTitle" = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?";
+
+/* Class = "UIButton"; normalTitle = "Take the Quiz!"; ObjectID = "e27-YP-nZM"; */
+"e27-YP-nZM.normalTitle" = "Take the Quiz!";
+
+/* Class = "UILabel"; text = "Don't have an account? Sign up now!"; ObjectID = "fUu-rn-6v0"; */
+"fUu-rn-6v0.text" = "Don't have an account? Sign up now!";
+
+/* Class = "UIButton"; normalTitle = "Q: Can people who have not yet done any Art of Living course attend Rudra puja and/or offer Sankalp?"; ObjectID = "iDP-Fr-iN1"; */
+"iDP-Fr-iN1.normalTitle" = "Q: Can people who have not yet done any Art of Living course attend Rudra puja and/or offer Sankalp?";
+
+/* Class = "UILabel"; text = "Samuhik Pujas"; ObjectID = "jnr-r7-Cz6"; */
+"jnr-r7-Cz6.text" = "Samuhik Pujas";
+
+/* Class = "UIButton"; normalTitle = "Q:  How is Rudrapuja performed?"; ObjectID = "uPW-5I-SWJ"; */
+"uPW-5I-SWJ.normalTitle" = "Q:  How is Rudrapuja performed?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ufr-Yp-20B"; */
+"ufr-Yp-20B.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Tap here to start chanting"; ObjectID = "v0O-uC-Px9"; */
+"v0O-uC-Px9.text" = "Tap here to start chanting";
+
+/* Class = "UIButton"; normalTitle = "Q:  What is Sankalp?"; ObjectID = "vt5-cS-KZ0"; */
+"vt5-cS-KZ0.normalTitle" = "Q:  What is Sankalp?";
+
+/* Class = "UIButton"; normalTitle = "Q:  How can I book a personal Rudrapuja?"; ObjectID = "y00-9h-Rje"; */
+"y00-9h-Rje.normalTitle" = "Q:  How can I book a personal Rudrapuja?";
+
+/* Class = "UIButton"; normalTitle = "Q: What is the significance of Panchamrita Rudrabhishekam?"; ObjectID = "zhp-iu-BBK"; */
+"zhp-iu-BBK.normalTitle" = "Q: What is the significance of Panchamrita Rudrabhishekam?";
