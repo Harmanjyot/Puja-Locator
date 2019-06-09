@@ -42,7 +42,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eAZ-Rs-OEK" kind="presentation" id="6w8-mr-8VM"/>
+                                    <segue destination="eAZ-Rs-OEK" kind="presentation" id="8mT-ju-oYM"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufr-Yp-20B">
@@ -65,12 +65,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4532" y="-1516"/>
+            <point key="canvasLocation" x="-8897" y="-2265"/>
+        </scene>
+        <!--Chanting page-->
+        <scene sceneID="fhk-Ij-kpw">
+            <objects>
+                <viewController id="r61-hA-f7d" userLabel="Chanting page" customClass="ChantingPage" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fO8-dL-Y1p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rudraksha_background" translatesAutoresizingMaskIntoConstraints="NO" id="gGJ-G2-Ckp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap here to start chanting" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0O-uC-Px9">
+                                <rect key="frame" x="60" y="466" width="315" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFx-wH-lCE">
+                                <rect key="frame" x="62" y="208" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="55"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAct:" destination="r61-hA-f7d" eventType="touchUpInside" id="oHv-2J-uOo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYV-8O-Baz" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-chant"/>
+                                <connections>
+                                    <segue destination="j5m-he-zz3" kind="unwind" unwindAction="unwindToMainPage:" id="gKp-lG-mvR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BHe-ew-OXI"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLbl" destination="AFx-wH-lCE" id="y1P-jl-ikO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Fz-ZH-5ou" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="j5m-he-zz3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-3615" y="-1535"/>
         </scene>
         <!--Main Page-->
         <scene sceneID="RJR-sC-Xa4">
             <objects>
-                <viewController id="eAZ-Rs-OEK" userLabel="Main Page" sceneMemberID="viewController">
+                <viewController id="eAZ-Rs-OEK" userLabel="Main Page" customClass="Main_Page" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ozk-uF-yv6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +148,9 @@
                                 <rect key="frame" x="158" y="90" width="77" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="chanting icon"/>
+                                <connections>
+                                    <segue destination="r61-hA-f7d" kind="presentation" id="8W1-pm-Upy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7c-yB-kcr" userLabel="FAQ">
                                 <rect key="frame" x="289" y="87" width="53" height="70"/>
@@ -161,10 +216,11 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FaS-ix-Qxg"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5iH-kA-Uhx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3I-j6-xe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1234" y="-80"/>
+            <point key="canvasLocation" x="-3274" y="-198"/>
         </scene>
         <!--FAQs-->
         <scene sceneID="lgY-ku-TOV">
@@ -307,14 +363,23 @@
                                     <segue destination="VbD-8N-7sg" kind="show" id="oN3-7h-ccP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caz-w9-zA2" userLabel="Back">
+                                <rect key="frame" x="9" y="21" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="Vlt-Nu-UIh" kind="unwind" unwindAction="unwindToMainPage:" id="imW-VA-jsl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lDd-mc-HLD"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GKm-ru-E0j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Vlt-Nu-UIh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="702" y="-766"/>
+            <point key="canvasLocation" x="-1110" y="-1315"/>
         </scene>
         <!--Q3-->
         <scene sceneID="yxQ-Oh-kNo">
@@ -344,11 +409,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ON0-od-mF4">
-                                <rect key="frame" x="17" y="193" width="326" height="220"/>
+                                <rect key="frame" x="17" y="193" width="326" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">A: During Shraavan Mass, the generative aspect of nature is in full bloom and all that is sowed, blossoms without much effort. In the same way, when you do Rudrapuja in Shraavan, it is believed to have manifold effect on the Sankalp that u offer.</string>
+                                        <string key="content">A: During Shraavan Mass, the generative aspect of nature is in full bloom and all that is sowed, blossoms without much effort. In the same way, when you do Rudrapuja in Shraavan, it is believed to have manifold effect on the Sankalp that you offer.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name=".SFNSText"/>
@@ -358,14 +423,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHo-4f-hTo" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="jJI-7c-Lol" kind="unwind" unwindAction="unwindToFAQ:" id="JoC-NC-PAN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fKG-GB-Q6G"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNX-8y-3Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="jJI-7c-Lol" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2119" y="-2480"/>
+            <point key="canvasLocation" x="2117.5999999999999" y="-2480.5097451274364"/>
         </scene>
         <!--Q4-->
         <scene sceneID="4rR-Ji-Esf">
@@ -395,7 +469,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBG-LI-ERP">
-                                <rect key="frame" x="24" y="171" width="326" height="220"/>
+                                <rect key="frame" x="24" y="171" width="326" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -409,14 +483,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj9-7W-p2b" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="Zel-SG-JCh" kind="unwind" unwindAction="unwindToFAQ:" id="B9b-yT-3ky"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="XGi-Qr-5k3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaI-nj-4fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Zel-SG-JCh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2820" y="-2143"/>
+            <point key="canvasLocation" x="2820" y="-2143.1784107946028"/>
         </scene>
         <!--Q5-->
         <scene sceneID="v1a-jA-CXk">
@@ -446,7 +529,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mye-s0-6NS">
-                                <rect key="frame" x="24" y="191" width="326" height="220"/>
+                                <rect key="frame" x="24" y="191" width="326" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -460,14 +543,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAS-hU-HAN" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="8XW-nj-Yox" kind="unwind" unwindAction="unwindToFAQ:" id="dTM-Xa-1yw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Xhg-vl-JpL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AgT-sR-dDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="8XW-nj-Yox" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3497" y="-1715"/>
+            <point key="canvasLocation" x="3496.8000000000002" y="-1715.8920539730136"/>
         </scene>
         <!--Q6-->
         <scene sceneID="5p6-Ki-jED">
@@ -497,7 +589,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnT-pr-6zQ">
-                                <rect key="frame" x="17" y="179" width="326" height="220"/>
+                                <rect key="frame" x="17" y="179" width="326" height="372"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -511,14 +603,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Du-5y-yJE" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="ak4-im-T00" kind="unwind" unwindAction="unwindToFAQ:" id="OUS-M8-f7b"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="DvY-tS-gCU"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEw-9X-QeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ak4-im-T00" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4186" y="-1314"/>
+            <point key="canvasLocation" x="4281" y="-1178"/>
         </scene>
         <!--Q11-->
         <scene sceneID="Koz-E9-ScY">
@@ -548,7 +649,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccG-cl-82N">
-                                <rect key="frame" x="16" y="214" width="326" height="134"/>
+                                <rect key="frame" x="16" y="214" width="326" height="302"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -562,14 +663,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gan-Wh-y84" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="Nyq-qE-gj8" kind="unwind" unwindAction="unwindToFAQ:" id="IGj-nH-j4W"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tKG-kW-scr"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mK-fc-onk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Nyq-qE-gj8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1558" y="276"/>
+            <point key="canvasLocation" x="1921" y="597"/>
         </scene>
         <!--Q10-->
         <scene sceneID="fQR-oB-qX8">
@@ -612,14 +722,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUo-AY-IpU" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="Kum-sd-oRn" kind="unwind" unwindAction="unwindToFAQ:" id="yHB-74-Wze"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rj5-SQ-uur"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nll-K7-XwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Kum-sd-oRn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2290" y="188"/>
+            <point key="canvasLocation" x="2652" y="509"/>
         </scene>
         <!--Q9-->
         <scene sceneID="jor-8c-n6v">
@@ -662,14 +781,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiR-GZ-hxz" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="7X2-zf-r5G" kind="unwind" unwindAction="unwindToFAQ:" id="G5k-g5-Hod"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gIR-bq-BJU"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utG-DP-xil" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="7X2-zf-r5G" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3028" y="57"/>
+            <point key="canvasLocation" x="3391" y="377"/>
         </scene>
         <!--Q8-->
         <scene sceneID="Dx9-HM-gNh">
@@ -699,11 +827,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rl9-gN-3hI">
-                                <rect key="frame" x="24" y="179" width="326" height="220"/>
+                                <rect key="frame" x="24" y="179" width="326" height="468"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says "Cha main". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect.</mutableString>
+                                        <string key="content">A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says "Cha main". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name=".SFNSText"/>
@@ -713,14 +841,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9R4-pB-qh9" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="TZ2-Zz-Ge1" kind="unwind" unwindAction="unwindToFAQ:" id="ZO7-Jt-Ung"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="reu-vC-r0F"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vA-uD-HH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="TZ2-Zz-Ge1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3769" y="-171"/>
+            <point key="canvasLocation" x="4132" y="150"/>
         </scene>
         <!--Q7-->
         <scene sceneID="slu-iu-0vy">
@@ -750,11 +887,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gz-hH-dyb">
-                                <rect key="frame" x="24" y="205" width="326" height="220"/>
+                                <rect key="frame" x="24" y="205" width="326" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">A: The word 'Panchamrita' is a combination of two words - 'Pancha' and 'Amrita'. 'Pancha' means five and 'Amrita' means nectar of the Gods. It is a sacred mixture of five ingredients i.e. milk, curd, honey, jaggery and ghee. Though jaggery is needed, nowadays sugar is being used instead. The five Devas (deities) reside in these five ingredients. Savitru resides in sugar, Vishwedeva in honey, Surya in ghee, Vayu in curd and Soma in milk. So when you offer them as Abhisheka, the intention is that may the divine qualities of these Devas blossom in our lives. </mutableString>
+                                        <string key="content">A: The word 'Panchamrita' is a combination of two words - 'Pancha' and 'Amrita'. 'Pancha' means five and 'Amrita' means nectar of the Gods. It is a sacred mixture of five ingredients i.e. milk, curd, honey, jaggery and ghee. Though jaggery is needed, nowadays sugar is being used instead. The five Devas (deities) reside in these five ingredients. Savitru resides in sugar, Vishwedeva in honey, Surya in ghee, Vayu in curd and Soma in milk. So when you offer them as Abhisheka, the intention is that may the divine qualities of these Devas blossom in our lives. </string>
                                         <attributes>
                                             <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name=".SFNSText"/>
@@ -764,14 +901,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojH-xF-To3" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="fxb-Yy-bm0" kind="unwind" unwindAction="unwindToFAQ:" id="5xp-b0-PZc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Jb-pb-qr7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jix-wZ-M7X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="fxb-Yy-bm0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4471" y="-610"/>
+            <point key="canvasLocation" x="4743" y="-462"/>
         </scene>
         <!--Q1-->
         <scene sceneID="gYv-5m-ppi">
@@ -801,7 +947,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQq-ig-1Pe">
-                                <rect key="frame" x="16" y="166" width="326" height="303"/>
+                                <rect key="frame" x="16" y="166" width="326" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -815,14 +961,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzd-A9-hxb" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="aGt-Qy-bfw" kind="unwind" unwindAction="unwindToFAQ:" id="v9j-ru-6mo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="MVP-Gw-9WT"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q12-vy-jon" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aGt-Qy-bfw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="702" y="-2844"/>
+            <point key="canvasLocation" x="701.60000000000002" y="-2844.8275862068967"/>
         </scene>
         <!--Q2-->
         <scene sceneID="fy7-cA-7L3">
@@ -852,7 +1007,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6o-RQ-ABG">
-                                <rect key="frame" x="16" y="215" width="326" height="303"/>
+                                <rect key="frame" x="16" y="215" width="326" height="415"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -866,19 +1021,30 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwL-PJ-2aE" userLabel="Back">
+                                <rect key="frame" x="17" y="17" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-icon"/>
+                                <connections>
+                                    <segue destination="G8M-Qn-pE9" kind="unwind" unwindAction="unwindToFAQ:" id="wti-4B-D4A"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FyH-yj-MVs"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVX-RI-zCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="G8M-Qn-pE9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1401" y="-2661"/>
+            <point key="canvasLocation" x="1400.8" y="-2661.3193403298351"/>
         </scene>
     </scenes>
     <resources>
         <image name="FAQ icon" width="90" height="128"/>
         <image name="White bg" width="1080" height="1920"/>
+        <image name="back-chant" width="171" height="171"/>
+        <image name="back-icon" width="171" height="171"/>
         <image name="chanting icon" width="154" height="122"/>
         <image name="dakshinamurti_puja" width="126" height="110"/>
         <image name="dhanvantari_homa" width="125" height="110"/>
@@ -887,6 +1053,7 @@
         <image name="navchandi_homa" width="125" height="110"/>
         <image name="request icon" width="146" height="133"/>
         <image name="rudra_pooja" width="125" height="110"/>
+        <image name="rudraksha_background" width="600" height="500"/>
         <image name="underline" width="640" height="400"/>
         <image name="upanayan" width="125" height="110"/>
         <image name="vidyarambham_sanskar" width="125" height="110"/>

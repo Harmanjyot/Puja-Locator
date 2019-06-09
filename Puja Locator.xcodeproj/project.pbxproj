@@ -16,6 +16,7 @@
 		5F3AD8FD22AAC73D00796BD9 /* Puja_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD8FC22AAC73D00796BD9 /* Puja_LocatorUITests.swift */; };
 		5F659AD422ABC68F00EDDEA5 /* FAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F659AD322ABC68F00EDDEA5 /* FAQs.swift */; };
 		5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B1C6222ABC3DE00581148 /* Main Page.swift */; };
+		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5F3AD8FE22AAC73D00796BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F659AD322ABC68F00EDDEA5 /* FAQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQs.swift; sourceTree = "<group>"; };
 		5F9B1C6222ABC3DE00581148 /* Main Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Page.swift"; sourceTree = "<group>"; };
+		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		5F659AD222ABC5F500EDDEA5 /* Scripts Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5FF8329822ACBF3B000894E7 /* ChantingPage.swift */,
 				5F3AD8DE22AAC72E00796BD9 /* ViewController.swift */,
 				5F9B1C6222ABC3DE00581148 /* Main Page.swift */,
 				5F659AD322ABC68F00EDDEA5 /* FAQs.swift */,
@@ -273,6 +276,7 @@
 				5F659AD422ABC68F00EDDEA5 /* FAQs.swift in Sources */,
 				5F3AD8DF22AAC72E00796BD9 /* ViewController.swift in Sources */,
 				5F3AD8DD22AAC72E00796BD9 /* AppDelegate.swift in Sources */,
+				5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */,
 				5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

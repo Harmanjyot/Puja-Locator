@@ -9,8 +9,9 @@
 import UIKit
 
 
+
+
 class FAQs: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,5 +28,7 @@ class FAQs: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func unwindToFAQ(_ sender: UIStoryboardSegue) {}
 
 }

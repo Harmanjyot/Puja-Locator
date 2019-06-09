@@ -1,5 +1,5 @@
 //
-//  Main Page.swift
+//  ChantingPage.swift
 //  Puja Locator
 //
 //  Created by Harmanjyot on 08/06/19.
@@ -7,18 +7,34 @@
 //
 
 import UIKit
+import AudioToolbox
 
-class Main_Page: UIViewController {
-
-    @IBOutlet weak var navBar: UINavigationItem!
+class ChantingPage: UIViewController {
+    
+    //INITIALIZING VARIABLES AND INSTANCES
+    
+    @IBOutlet weak var buttonLbl: UIButton!
+    var count = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        buttonLbl.setTitle(String(count), for: UIControl.State.normal)
         // Do any additional setup after loading the view.
     }
     
-
+    
+    //BUTTON PRESSES!
+    @IBAction func buttonAct(_ sender: Any) {
+        
+        count = count+1
+        buttonLbl.setTitle(String(count), for: UIControl.State.normal)
+        if count == 108 {
+            AudioServicesPlayAlertSound(kSystemSoundID_Vibrate) //iPhone WILL VIBRATE
+            count = 0
+            
+        }
+        
+    }
     /*
     // MARK: - Navigation
 
@@ -28,7 +44,5 @@ class Main_Page: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    @IBAction func unwindToMainPage(_ sender: UIStoryboardSegue){}
 
 }
