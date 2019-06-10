@@ -14,6 +14,7 @@
 		5F3AD8E722AAC73D00796BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AD8E522AAC73D00796BD9 /* LaunchScreen.storyboard */; };
 		5F3AD8F222AAC73D00796BD9 /* Puja_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD8F122AAC73D00796BD9 /* Puja_LocatorTests.swift */; };
 		5F3AD8FD22AAC73D00796BD9 /* Puja_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD8FC22AAC73D00796BD9 /* Puja_LocatorUITests.swift */; };
+		5F4216B122AEC64A0089E365 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4216B022AEC64A0089E365 /* Settings.swift */; };
 		5F659AD422ABC68F00EDDEA5 /* FAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F659AD322ABC68F00EDDEA5 /* FAQs.swift */; };
 		5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B1C6222ABC3DE00581148 /* Main Page.swift */; };
 		5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */; };
@@ -51,6 +52,7 @@
 		5F3AD8F822AAC73D00796BD9 /* Puja LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puja LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AD8FC22AAC73D00796BD9 /* Puja_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puja_LocatorUITests.swift; sourceTree = "<group>"; };
 		5F3AD8FE22AAC73D00796BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4216B022AEC64A0089E365 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5F659AD322ABC68F00EDDEA5 /* FAQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQs.swift; sourceTree = "<group>"; };
 		5F9B1C6222ABC3DE00581148 /* Main Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Page.swift"; sourceTree = "<group>"; };
 		5F9FB7C822AD5BBC0068C155 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				5F9B1C6222ABC3DE00581148 /* Main Page.swift */,
 				5F659AD322ABC68F00EDDEA5 /* FAQs.swift */,
 				5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */,
+				5F4216B022AEC64A0089E365 /* Settings.swift */,
 			);
 			path = "Scripts Swift";
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				5F3AD8DF22AAC72E00796BD9 /* ViewController.swift in Sources */,
 				5F3AD8DD22AAC72E00796BD9 /* AppDelegate.swift in Sources */,
 				5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */,
+				5F4216B122AEC64A0089E365 /* Settings.swift in Sources */,
 				5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */,
 				5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */,
 			);

@@ -12,6 +12,7 @@ import UIKit
 
 
 class FAQs: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
