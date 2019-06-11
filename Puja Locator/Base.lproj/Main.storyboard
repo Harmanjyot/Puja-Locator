@@ -262,7 +262,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="rudra_pooja"/>
                                                 <connections>
-                                                    <segue destination="fR2-4T-0CW" kind="show" id="clm-q8-wxQ"/>
+                                                    <segue destination="fR2-4T-0CW" kind="show" identifier="t1" id="clm-q8-wxQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqC-nT-CPg" userLabel="Dakshinamurti_Puja">
@@ -270,7 +270,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="dakshinamurti_puja"/>
                                                 <connections>
-                                                    <segue destination="VMj-D8-sZQ" kind="show" id="R13-F8-35j"/>
+                                                    <segue destination="VMj-D8-sZQ" kind="show" identifier="t2" id="R13-F8-35j"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28e-Vs-Acz" userLabel="Ganesh_Homa">
@@ -278,7 +278,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="ganesh_homa"/>
                                                 <connections>
-                                                    <segue destination="4SL-TT-mwQ" kind="show" id="fsw-by-0hb"/>
+                                                    <segue destination="4SL-TT-mwQ" kind="show" identifier="t3" id="fsw-by-0hb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yL-rh-yPB" userLabel="Dhanvantari_Homa">
@@ -286,7 +286,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="dhanvantari_homa"/>
                                                 <connections>
-                                                    <segue destination="wAz-Et-8a0" kind="show" id="sLo-71-ifb"/>
+                                                    <segue destination="wAz-Et-8a0" kind="show" identifier="t7" id="sLo-71-ifb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-tZ-sPb" userLabel="Vidyarambham_Sanskar">
@@ -294,7 +294,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="vidyarambham_sanskar"/>
                                                 <connections>
-                                                    <segue destination="DmB-4I-qUG" kind="show" id="tuM-f6-QCf"/>
+                                                    <segue destination="DmB-4I-qUG" kind="show" identifier="t8" id="tuM-f6-QCf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecg-RP-ltv" userLabel="Chandi_Homa">
@@ -302,7 +302,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="chandi_homa"/>
                                                 <connections>
-                                                    <segue destination="SOi-l7-QOA" kind="show" id="zXN-XY-RWI"/>
+                                                    <segue destination="SOi-l7-QOA" kind="show" identifier="t9" id="zXN-XY-RWI"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRT-3e-l5u" userLabel="Ganpati">
@@ -310,7 +310,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="ganapati"/>
                                                 <connections>
-                                                    <segue destination="6Qb-dG-dK1" kind="show" id="hfl-Gw-ZAq"/>
+                                                    <segue destination="6Qb-dG-dK1" kind="show" identifier="t10" id="hfl-Gw-ZAq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUV-bc-U5g" userLabel="Mahalaxmi-Homa">
@@ -318,7 +318,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="mahalaxmi_homa"/>
                                                 <connections>
-                                                    <segue destination="nl5-wJ-6ua" kind="show" id="KPn-yB-tzP"/>
+                                                    <segue destination="nl5-wJ-6ua" kind="show" identifier="t12" id="KPn-yB-tzP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZ2-Eh-kIB" userLabel="Kalash Sthapna">
@@ -326,7 +326,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="kalash_sthapana"/>
                                                 <connections>
-                                                    <segue destination="bBd-89-lin" kind="show" id="4tG-gt-DSx"/>
+                                                    <segue destination="bBd-89-lin" kind="show" identifier="t11" id="4tG-gt-DSx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecV-UZ-yPl" userLabel="Maha Rudra Puja">
@@ -334,7 +334,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="maharudra"/>
                                                 <connections>
-                                                    <segue destination="LEh-dC-wKw" kind="show" id="Lhi-Lh-6Zw"/>
+                                                    <segue destination="LEh-dC-wKw" kind="show" identifier="t13" id="Lhi-Lh-6Zw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdt-OY-uGC" userLabel="Sudharshan_Homa">
@@ -342,7 +342,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="sudarshan"/>
                                                 <connections>
-                                                    <segue destination="OwH-aA-wos" kind="show" id="aDo-b9-yIG"/>
+                                                    <segue destination="OwH-aA-wos" kind="show" identifier="t15" id="aDo-b9-yIG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K90-43-7NR" userLabel="Navagraha_Homa">
@@ -350,7 +350,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="navagraha_homa"/>
                                                 <connections>
-                                                    <segue destination="Pn5-bT-AHo" kind="show" id="qDq-vo-bvO"/>
+                                                    <segue destination="Pn5-bT-AHo" kind="show" identifier="t14" id="qDq-vo-bvO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52A-r8-KTw" userLabel="Vaastu_Shanti">
@@ -358,7 +358,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="vaastu_shanti"/>
                                                 <connections>
-                                                    <segue destination="IvA-At-fNQ" kind="show" id="EAc-f4-b5m"/>
+                                                    <segue destination="IvA-At-fNQ" kind="show" identifier="t16" id="EAc-f4-b5m"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYr-qF-nzP" userLabel="Durga_Homa">
@@ -366,7 +366,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="durga_homa"/>
                                                 <connections>
-                                                    <segue destination="NcC-gR-O6K" kind="show" id="rTK-WK-FLZ"/>
+                                                    <segue destination="NcC-gR-O6K" kind="show" identifier="t4" id="rTK-WK-FLZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFt-Tt-Qyd" userLabel="Navchandi_Homa">
@@ -374,7 +374,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="navchandi_homa"/>
                                                 <connections>
-                                                    <segue destination="sGv-R1-W46" kind="show" id="1yj-4c-unh"/>
+                                                    <segue destination="sGv-R1-W46" kind="show" identifier="t5" id="1yj-4c-unh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkV-wy-xj7" userLabel="Upanayan">
@@ -382,7 +382,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="upanayan"/>
                                                 <connections>
-                                                    <segue destination="jfc-r3-mYh" kind="show" id="3x6-c5-e3y"/>
+                                                    <segue destination="jfc-r3-mYh" kind="show" identifier="t6" id="3x6-c5-e3y"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puja Locator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="O0y-BQ-uXq">
@@ -515,9 +515,12 @@
                         <viewLayoutGuide key="safeArea" id="2eJ-yI-g1y"/>
                     </view>
                     <connections>
+                        <outlet property="enfBtn" destination="D3a-Ao-BEF" id="cAS-tw-ucB"/>
                         <outlet property="engBtnOut" destination="D3a-Ao-BEF" id="IZv-o2-lRe"/>
                         <outlet property="hinBtnOut" destination="lMD-dl-mdn" id="rdF-bg-HLk"/>
+                        <outlet property="hindiBtn" destination="lMD-dl-mdn" id="22U-RE-B2g"/>
                         <outlet property="marBtnOut" destination="b0x-Fx-UMB" id="9gg-Hj-Kot"/>
+                        <outlet property="marathiBtn" destination="b0x-Fx-UMB" id="Xwh-t9-UF5"/>
                         <outlet property="selectionLbl" destination="fsY-2Y-a76" id="c1V-W0-L9Z"/>
                         <outlet property="settingsLbl" destination="CTH-pf-r2H" id="AS2-s0-knh"/>
                     </connections>
@@ -525,7 +528,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bj6-3G-bv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="uB9-Mn-fSa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-6162.3999999999996" y="-1070.9145427286358"/>
+            <point key="canvasLocation" x="-6834" y="-1716"/>
         </scene>
         <!--Rudra-Puja-->
         <scene sceneID="Ryv-Qy-Rp2">
@@ -980,7 +983,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="eYB-ld-dq1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="eYB-ld-dq1">
                                 <rect key="frame" x="122" y="26" width="130" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -1003,7 +1006,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4vF-KO-9cX" kind="show" id="hjT-Kn-VZY"/>
+                                    <segue destination="4vF-KO-9cX" kind="show" identifier="segueQ1" id="hjT-Kn-VZY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B7h-Qa-IWe">
@@ -1015,7 +1018,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="URE-2a-0oh" kind="show" id="bmr-CV-b2y"/>
+                                    <segue destination="URE-2a-0oh" kind="show" identifier="segueQ2" id="bmr-CV-b2y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3xh-os-rmW">
@@ -1027,7 +1030,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IHr-K1-a9v" kind="show" id="TmZ-Mq-Oeg"/>
+                                    <segue destination="IHr-K1-a9v" kind="show" identifier="segueQ9" id="TmZ-Mq-Oeg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NIX-cu-ih7">
@@ -1039,7 +1042,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M3q-QI-9Ba" kind="show" id="gdj-wR-F87"/>
+                                    <segue destination="M3q-QI-9Ba" kind="show" identifier="segueQ8" id="gdj-wR-F87"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zhp-iu-BBK">
@@ -1051,7 +1054,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ipz-FE-9qp" kind="show" id="eyV-je-nOB"/>
+                                    <segue destination="ipz-FE-9qp" kind="show" identifier="segueQ7" id="eyV-je-nOB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uPW-5I-SWJ">
@@ -1063,7 +1066,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SY4-eA-hnN" kind="show" id="w96-Kh-cgh"/>
+                                    <segue destination="SY4-eA-hnN" kind="show" identifier="segueQ6" id="w96-Kh-cgh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Uga-wE-z27">
@@ -1075,7 +1078,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SST-2M-6uX" kind="show" id="rEB-jf-Jik"/>
+                                    <segue destination="SST-2M-6uX" kind="show" identifier="segueQ5" id="rEB-jf-Jik"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vt5-cS-KZ0">
@@ -1087,7 +1090,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="One-wt-YCM" kind="show" id="bH4-QE-fbA"/>
+                                    <segue destination="One-wt-YCM" kind="show" identifier="segueQ4" id="bH4-QE-fbA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="y00-9h-Rje">
@@ -1099,7 +1102,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Eqt-gz-y8Z" kind="show" id="3gz-RW-Cc4"/>
+                                    <segue destination="Eqt-gz-y8Z" kind="show" identifier="segueQ10" id="3gz-RW-Cc4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caz-w9-zA2" userLabel="Back">
@@ -1119,7 +1122,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hwe-gu-e2M" kind="show" id="tvs-Wd-bRg"/>
+                                    <segue destination="hwe-gu-e2M" kind="show" identifier="segueQ3" id="tvs-Wd-bRg"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="030-KJ-NZN">
@@ -1186,7 +1189,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VbD-8N-7sg" kind="show" id="oN3-7h-ccP"/>
+                                    <segue destination="VbD-8N-7sg" kind="show" identifier="segueQ11" id="oN3-7h-ccP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1215,7 +1218,7 @@
         <!--Q3-->
         <scene sceneID="yxQ-Oh-kNo">
             <objects>
-                <viewController id="hwe-gu-e2M" userLabel="Q3" sceneMemberID="viewController">
+                <viewController id="hwe-gu-e2M" userLabel="Q3" customClass="FAQ3" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rkP-vc-2Lu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1259,6 +1262,10 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fKG-GB-Q6G"/>
                     </view>
+                    <connections>
+                        <outlet property="a3Lbl" destination="ON0-od-mF4" id="YNI-ez-hkr"/>
+                        <outlet property="q3Lbl" destination="sZf-F5-tUQ" id="FgX-m4-9Yf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNX-8y-3Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="jJI-7c-Lol" userLabel="Exit" sceneMemberID="exit"/>
@@ -1268,7 +1275,7 @@
         <!--Q4-->
         <scene sceneID="4rR-Ji-Esf">
             <objects>
-                <viewController id="One-wt-YCM" userLabel="Q4" sceneMemberID="viewController">
+                <viewController id="One-wt-YCM" userLabel="Q4" customClass="FAQ4" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q20-Y3-FaM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1313,8 +1320,8 @@
                         <viewLayoutGuide key="safeArea" id="XGi-Qr-5k3"/>
                     </view>
                     <connections>
-                        <outlet property="a4Lbl" destination="NBG-LI-ERP" id="0JE-L9-snJ"/>
-                        <outlet property="q4Lbl" destination="WMu-sd-Oo5" id="t7z-ky-O91"/>
+                        <outlet property="a4Lbl" destination="NBG-LI-ERP" id="8RL-Xn-naB"/>
+                        <outlet property="q4Lbl" destination="WMu-sd-Oo5" id="xg8-MR-gcC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaI-nj-4fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1325,7 +1332,7 @@
         <!--Q5-->
         <scene sceneID="v1a-jA-CXk">
             <objects>
-                <viewController id="SST-2M-6uX" userLabel="Q5" sceneMemberID="viewController">
+                <viewController id="SST-2M-6uX" userLabel="Q5" customClass="FAQ5" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxr-b7-80K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1370,8 +1377,8 @@
                         <viewLayoutGuide key="safeArea" id="Xhg-vl-JpL"/>
                     </view>
                     <connections>
-                        <outlet property="a5Lbl" destination="mye-s0-6NS" id="PsV-1D-9aF"/>
-                        <outlet property="q5Lbl" destination="3Vg-18-KvD" id="cub-2r-QJD"/>
+                        <outlet property="a5Lbl" destination="mye-s0-6NS" id="Gba-xR-bQZ"/>
+                        <outlet property="q5Lbl" destination="3Vg-18-KvD" id="vuF-ez-4zq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AgT-sR-dDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1382,7 +1389,7 @@
         <!--Q6-->
         <scene sceneID="5p6-Ki-jED">
             <objects>
-                <viewController id="SY4-eA-hnN" userLabel="Q6" sceneMemberID="viewController">
+                <viewController id="SY4-eA-hnN" userLabel="Q6" customClass="FAQ6" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fb4-oo-LaJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1427,8 +1434,8 @@
                         <viewLayoutGuide key="safeArea" id="DvY-tS-gCU"/>
                     </view>
                     <connections>
-                        <outlet property="a6Lbl" destination="dnT-pr-6zQ" id="PtP-u5-TuE"/>
-                        <outlet property="q6Lbl" destination="8Kl-C3-2JV" id="f7I-9U-xuu"/>
+                        <outlet property="a6Lbl" destination="dnT-pr-6zQ" id="DRv-2C-qB4"/>
+                        <outlet property="q6Lbl" destination="8Kl-C3-2JV" id="nEA-yY-3kf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEw-9X-QeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1439,7 +1446,7 @@
         <!--Q11-->
         <scene sceneID="Koz-E9-ScY">
             <objects>
-                <viewController id="VbD-8N-7sg" userLabel="Q11" sceneMemberID="viewController">
+                <viewController id="VbD-8N-7sg" userLabel="Q11" customClass="FAQ11" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dbs-QY-WxL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1449,8 +1456,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q: Can people who have not yet done any Art of Living course attend Rudrapuja and/or offer Sankalp?" lineBreakMode="tailTruncation" numberOfLines="0" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-ay-oVb">
-                                <rect key="frame" x="18" y="104" width="324" height="104"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q: Can people who have not yet done any Art of Living course attend Rudrapuja and/or offer Sankalp?" lineBreakMode="tailTruncation" numberOfLines="0" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-ay-oVb">
+                                <rect key="frame" x="18" y="93" width="324" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="42"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1485,8 +1492,8 @@
                         <viewLayoutGuide key="safeArea" id="tKG-kW-scr"/>
                     </view>
                     <connections>
-                        <outlet property="a11Lbl" destination="ccG-cl-82N" id="A6L-vn-1P4"/>
-                        <outlet property="q11Lbl" destination="pfk-ay-oVb" id="zV4-xy-D0W"/>
+                        <outlet property="a11Lbl" destination="ccG-cl-82N" id="Rt8-12-VXP"/>
+                        <outlet property="q11Lbl" destination="pfk-ay-oVb" id="xJG-he-xTV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mK-fc-onk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1497,7 +1504,7 @@
         <!--Q10-->
         <scene sceneID="fQR-oB-qX8">
             <objects>
-                <viewController id="Eqt-gz-y8Z" userLabel="Q10" sceneMemberID="viewController">
+                <viewController id="Eqt-gz-y8Z" userLabel="Q10" customClass="FAQ10" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="53h-hO-wrF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1541,8 +1548,8 @@
                         <viewLayoutGuide key="safeArea" id="rj5-SQ-uur"/>
                     </view>
                     <connections>
-                        <outlet property="a10Lbl" destination="fvO-Q5-2aR" id="FrQ-QG-iaJ"/>
-                        <outlet property="q10Lbl" destination="2Ar-Sv-Oze" id="MIa-rx-mWc"/>
+                        <outlet property="a10Lbl" destination="fvO-Q5-2aR" id="khd-KW-O1E"/>
+                        <outlet property="q10Lbl" destination="2Ar-Sv-Oze" id="oXI-NC-ErA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nll-K7-XwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1553,7 +1560,7 @@
         <!--Q9-->
         <scene sceneID="jor-8c-n6v">
             <objects>
-                <viewController id="IHr-K1-a9v" userLabel="Q9" sceneMemberID="viewController">
+                <viewController id="IHr-K1-a9v" userLabel="Q9" customClass="FAQ9" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nQL-Tx-s8Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1597,8 +1604,8 @@
                         <viewLayoutGuide key="safeArea" id="gIR-bq-BJU"/>
                     </view>
                     <connections>
-                        <outlet property="a9Lbl" destination="HEt-g6-BSA" id="sfy-mS-iVP"/>
-                        <outlet property="q9Lbl" destination="hVw-WG-2JL" id="zTQ-YM-u9o"/>
+                        <outlet property="a9Lbl" destination="HEt-g6-BSA" id="I2M-HP-AG0"/>
+                        <outlet property="q9Lbl" destination="hVw-WG-2JL" id="RRp-H4-wsa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utG-DP-xil" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1609,7 +1616,7 @@
         <!--Q8-->
         <scene sceneID="Dx9-HM-gNh">
             <objects>
-                <viewController id="M3q-QI-9Ba" userLabel="Q8" sceneMemberID="viewController">
+                <viewController id="M3q-QI-9Ba" userLabel="Q8" customClass="FAQ8" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LgM-aI-3uU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1654,8 +1661,8 @@
                         <viewLayoutGuide key="safeArea" id="reu-vC-r0F"/>
                     </view>
                     <connections>
-                        <outlet property="a8Lbl" destination="rl9-gN-3hI" id="8UZ-Cw-6FA"/>
-                        <outlet property="q8Lbl" destination="l6E-3G-3Rx" id="mS2-cF-CFV"/>
+                        <outlet property="a8Lbl" destination="rl9-gN-3hI" id="6NS-1Y-Ky1"/>
+                        <outlet property="q8Lbl" destination="l6E-3G-3Rx" id="RAF-mr-NBs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vA-uD-HH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1666,7 +1673,7 @@
         <!--Q7-->
         <scene sceneID="slu-iu-0vy">
             <objects>
-                <viewController id="ipz-FE-9qp" userLabel="Q7" sceneMemberID="viewController">
+                <viewController id="ipz-FE-9qp" userLabel="Q7" customClass="FAQ7" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C7P-k2-ZMe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1711,8 +1718,8 @@
                         <viewLayoutGuide key="safeArea" id="6Jb-pb-qr7"/>
                     </view>
                     <connections>
-                        <outlet property="a7Lbl" destination="7gz-hH-dyb" id="LdH-6M-6Dx"/>
-                        <outlet property="q7Lbl" destination="Dp2-Mf-6ji" id="Ukl-7H-tls"/>
+                        <outlet property="a7Lbl" destination="7gz-hH-dyb" id="pAo-IA-OpD"/>
+                        <outlet property="q7Lbl" destination="Dp2-Mf-6ji" id="oku-bc-42H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jix-wZ-M7X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1775,12 +1782,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q12-vy-jon" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="aGt-Qy-bfw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="701.60000000000002" y="-2844.8275862068967"/>
+            <point key="canvasLocation" x="649" y="-2942"/>
         </scene>
         <!--Q2-->
         <scene sceneID="fy7-cA-7L3">
             <objects>
-                <viewController id="URE-2a-0oh" userLabel="Q2" sceneMemberID="viewController">
+                <viewController id="URE-2a-0oh" userLabel="Q2" customClass="FAQ2" customModule="Puja_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rjt-7k-9RO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1824,6 +1831,10 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FyH-yj-MVs"/>
                     </view>
+                    <connections>
+                        <outlet property="a2Lbl" destination="o6o-RQ-ABG" id="3Dt-v6-CPj"/>
+                        <outlet property="q2Lbl" destination="zXT-R7-iH7" id="64K-Ic-Tjh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVX-RI-zCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="G8M-Qn-pE9" userLabel="Exit" sceneMemberID="exit"/>
@@ -2103,7 +2114,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ch-6f-hYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Ua2-2N-G4d" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-5522.3999999999996" y="650.82458770614699"/>
+            <point key="canvasLocation" x="-4697" y="1155"/>
         </scene>
         <!--Navagraha-->
         <scene sceneID="phh-Rm-oKU">
@@ -2158,7 +2169,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUR-c4-S3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="MN7-cn-CAN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-4855" y="651"/>
+            <point key="canvasLocation" x="-4030" y="1155"/>
         </scene>
         <!--Sudharshan-->
         <scene sceneID="iuh-gh-GYp">
@@ -2213,7 +2224,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hui-DD-Rga" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Bik-ur-bwX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-4087" y="655"/>
+            <point key="canvasLocation" x="-3262" y="1158"/>
         </scene>
         <!--Vaastu Shanti-->
         <scene sceneID="gbu-5W-bLc">
@@ -2268,7 +2279,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sob-pp-hHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Tqh-er-pQk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-3287" y="655"/>
+            <point key="canvasLocation" x="-2462" y="1158"/>
         </scene>
     </scenes>
     <resources>

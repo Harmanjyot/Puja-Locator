@@ -36,6 +36,9 @@ class Settings: UIViewController {
     
     @IBOutlet weak var selectionLbl: UILabel!
     @IBOutlet weak var settingsLbl: UILabel!
+    @IBOutlet weak var enfBtn: UIButton!
+    @IBOutlet weak var hindiBtn: UIButton!
+    @IBOutlet weak var marathiBtn: UIButton!
     var lang : Int!
 
     
@@ -86,6 +89,9 @@ class Settings: UIViewController {
     func changeLang(strLan: String) {
         selectionLbl.text = "languageSelect".localizableString(loc: strLan)
         settingsLbl.text = "settingsKey".localizableString(loc: strLan)
+        engBtnOut.setTitle("englishKey".localizableString(loc: strLan), for: .normal)
+        hindiBtn.setTitle("hindiKey".localizableString(loc: strLan), for: .normal)
+        marathiBtn.setTitle("marathiKey".localizableString(loc: strLan), for: .normal)
         
     }
 

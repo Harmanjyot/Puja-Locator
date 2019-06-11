@@ -11,22 +11,30 @@ import UIKit
 class DakshinamurtiPuja: UIViewController {
     @IBOutlet weak var topHead: UILabel!
     @IBOutlet weak var Lbl: UILabel!
-    
+    var langTile: Int!
+    var langSettings: Int!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        langTile = langSettings
+        langSet(langTile: langTile)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func langSet(langTile: Int) {
+        if (langTile == 0){
+            changeLang(strLan: "en")
+        }
+        else if (langTile == 1) {
+            changeLang(strLan: "hi")
+        }
+        else {
+            changeLang(strLan: "mr-IN")
+        }
+        
     }
-    */
+    
+    func changeLang(strLan: String) {
+        topHead.text = "headtitleDakshinamrutiPuja".localizableString(loc: strLan)
+        Lbl.text = "comingSoonKey".localizableString(loc: strLan)
+    }
 
 }

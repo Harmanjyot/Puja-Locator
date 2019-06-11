@@ -1,5 +1,5 @@
 //
-//  Q2.swift
+//  FAQ3.swift
 //  Puja Locator
 //
 //  Created by Harmanjyot on 11/06/19.
@@ -9,17 +9,20 @@
 import UIKit
 
 extension String {
-    func localizableStringFAQans(loc: String) -> String {
+    func localizableStringFAQ3(loc: String) -> String {
         let path = Bundle.main.path(forResource: loc, ofType: "lproj")
         let bundle = Bundle(path: path!)
         return NSLocalizedString(self,tableName: nil,bundle: bundle!,value: "", comment: "")
     }
 }
 
-class Q2: UIViewController {
+class FAQ3: UIViewController {
+
+    @IBOutlet weak var q3Lbl: UILabel!
+    @IBOutlet weak var a3Lbl: UILabel!
+    
     var langsettings: Int!
     var langAns: Int!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,11 +47,10 @@ class Q2: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        q1Lbl.text = "faqQ1".localizableStringMain(loc: strLan)
-        a1Lbl.text = "faqA1".localizableStringMain(loc: strLan)
+        q3Lbl.text = "faqQ3".localizableStringFAQ3(loc: strLan)
+        a3Lbl.text = "faqA3".localizableStringFAQ3(loc: strLan)
         
     }
     
-
-
+    
 }

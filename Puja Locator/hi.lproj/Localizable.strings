@@ -63,6 +63,8 @@
 /* Class = "UILabel"; text = "Kalash Sthapana"; ObjectID = "Ejj-nf-R12"; */
 "headtitleKalash" = "कलश स्थापन";
 
+"englishKey" = "English";
+
 /* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "FvT-gO-4cj"; */
 "logEmail" = "Enter Email ID";
 
@@ -113,6 +115,8 @@
 /* Class = "UIButton"; normalTitle = "Take the Quiz!"; ObjectID = "e27-YP-nZM"; */
 "quizMainpg" = "प्रश्नोत्तरी ले!";
 
+"marathiKey" = "मराठी";
+
 /* Class = "UILabel"; text = "Sri Sudarshan Homa"; ObjectID = "eXW-pm-nQf"; */
 "headtitleSudarshan" = "श्री सुदर्शन होमा";
 
@@ -128,7 +132,7 @@
 
 
 /* Class = "UILabel"; text = "Upanayan"; ObjectID = "hzO-jy-8pq"; */
-"headtitleUpanayan" = "Upanayan";
+"headtitleUpanayan" = "उपनयम";
 
 /* Class = "UIButton"; normalTitle = "Q: Can people who have not yet done any Art of Living course attend Rudra puja and/or offer Sankalp?"; ObjectID = "iDP-Fr-iN1"; */
 "faqQ11" = "प्रश्न: जो लोग अभी तक कोई आर्ट ऑफ लिविंग कोर्स नहीं कर पाए हैं, वे रूद्र पूजा और / या संकल्प की पेशकश करते हैं?";
@@ -145,6 +149,8 @@
 
 /* Class = "UILabel"; text = "Rudra Puja"; ObjectID = "lOt-rP-LlO"; */
 "headtitleRudraPuja" = "रुद्र पूजा";
+
+"hindiKey" = "हिंदी";
 
 /* Class = "UILabel"; text = "Durga Homa"; ObjectID = "mLf-89-IUg"; */
 "headtitleDurgaHoma" = "दुर्गा होमा";
@@ -174,3 +180,5 @@
 
 /* Class = "UILabel"; text = "Tap here to start chanting"; ObjectID = "v0O-uC-Px9"; */
 "chantKey" = "जप शुरू करने के लिए यहां टैप करें";
+
+"headTitleMahalaxmiHoma" = "श्री महालक्ष्मी होमा";

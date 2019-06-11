@@ -109,7 +109,7 @@
 
 
 /* Class = "UIButton"; normalTitle = "Marathi"; ObjectID = "b0x-Fx-UMB"; */
-"marathiKey" = "Marathi";
+"marathiKey" = "मराठी";
 
 /* Class = "UILabel"; text = "A: Yes, of course. The auspicious Rudrapuja is for one and all. Everyone is welcomed to attend the Rudrapuja and also offer the Sankalp. It is a great blessing for all of us to be part of this divine experience. Invite all your AOL and non-AOL friends, families, neighbours to the Shraavan Maas Rudrapuja. Be there, be blessed!!!"; ObjectID = "ccG-cl-82N"; */
 "faqA11" = "A: Yes, of course. The auspicious Rudrapuja is for one and all. Everyone is welcomed to attend the Rudrapuja and also offer the Sankalp. It is a great blessing for all of us to be part of this divine experience. Invite all your AOL and non-AOL friends, families, neighbours to the Shraavan Maas Rudrapuja. Be there, be blessed!!!";
@@ -150,7 +150,7 @@
 "headtitleDhanvantariHoma" = "Dhanvantari Homa";
 
 /* Class = "UIButton"; normalTitle = "Hindi"; ObjectID = "lMD-dl-mdn"; */
-"hindiKey" = "Hindi";
+"hindiKey" = "हिंदी";
 
 /* Class = "UILabel"; text = "Rudra Puja"; ObjectID = "lOt-rP-LlO"; */
 "headtitleRudraPuja" = "Rudra Puja";
@@ -183,3 +183,5 @@
 
 /* Class = "UILabel"; text = "Tap here to start chanting"; ObjectID = "v0O-uC-Px9"; */
 "chantKey" = "Tap here to start chanting";
+
+"headTitleMahalaxmiHoma" = "Sri Mahalaxmi Homa";

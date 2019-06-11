@@ -33,16 +33,16 @@
 		5F9AD08C22AFD05C0046773C /* NavagrahaHoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD08B22AFD05C0046773C /* NavagrahaHoma.swift */; };
 		5F9AD08E22AFD0970046773C /* SudharshanHoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD08D22AFD0970046773C /* SudharshanHoma.swift */; };
 		5F9AD09022AFD0DA0046773C /* VaastuShantiHoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD08F22AFD0DA0046773C /* VaastuShantiHoma.swift */; };
-		5F9AD09322AFFB5D0046773C /* Q2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09222AFFB5D0046773C /* Q2.swift */; };
-		5F9AD09D22AFFC350046773C /* Q11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09422AFFC340046773C /* Q11.swift */; };
-		5F9AD09E22AFFC350046773C /* Q6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09522AFFC340046773C /* Q6.swift */; };
-		5F9AD09F22AFFC350046773C /* Q7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09622AFFC350046773C /* Q7.swift */; };
-		5F9AD0A022AFFC350046773C /* Q3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09722AFFC350046773C /* Q3.swift */; };
-		5F9AD0A122AFFC350046773C /* Q8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09822AFFC350046773C /* Q8.swift */; };
-		5F9AD0A222AFFC350046773C /* Q5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09922AFFC350046773C /* Q5.swift */; };
-		5F9AD0A322AFFC350046773C /* Q9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09A22AFFC350046773C /* Q9.swift */; };
-		5F9AD0A422AFFC350046773C /* Q4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09B22AFFC350046773C /* Q4.swift */; };
-		5F9AD0A522AFFC350046773C /* Q10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD09C22AFFC350046773C /* Q10.swift */; };
+		5F9AD0A722B000A30046773C /* FAQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0A622B000A30046773C /* FAQ2.swift */; };
+		5F9AD0A922B000B30046773C /* FAQ3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0A822B000B30046773C /* FAQ3.swift */; };
+		5F9AD0AB22B000C10046773C /* FAQ4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0AA22B000C10046773C /* FAQ4.swift */; };
+		5F9AD0AD22B000D70046773C /* FAQ5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0AC22B000D70046773C /* FAQ5.swift */; };
+		5F9AD0AF22B004A00046773C /* FAQ6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0AE22B004A00046773C /* FAQ6.swift */; };
+		5F9AD0B122B004BF0046773C /* FAQ7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B022B004BF0046773C /* FAQ7.swift */; };
+		5F9AD0B322B004D30046773C /* FAQ8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B222B004D30046773C /* FAQ8.swift */; };
+		5F9AD0B522B004EA0046773C /* FAQ9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B422B004EA0046773C /* FAQ9.swift */; };
+		5F9AD0B722B004FB0046773C /* FAQ10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B622B004FB0046773C /* FAQ10.swift */; };
+		5F9AD0B922B0050D0046773C /* FAQ11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B822B0050D0046773C /* FAQ11.swift */; };
 		5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B1C6222ABC3DE00581148 /* Main Page.swift */; };
 		5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */; };
 		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
@@ -104,16 +104,16 @@
 		5F9AD08B22AFD05C0046773C /* NavagrahaHoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavagrahaHoma.swift; sourceTree = "<group>"; };
 		5F9AD08D22AFD0970046773C /* SudharshanHoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudharshanHoma.swift; sourceTree = "<group>"; };
 		5F9AD08F22AFD0DA0046773C /* VaastuShantiHoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaastuShantiHoma.swift; sourceTree = "<group>"; };
-		5F9AD09222AFFB5D0046773C /* Q2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
-		5F9AD09422AFFC340046773C /* Q11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q11.swift; sourceTree = "<group>"; };
-		5F9AD09522AFFC340046773C /* Q6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q6.swift; sourceTree = "<group>"; };
-		5F9AD09622AFFC350046773C /* Q7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q7.swift; sourceTree = "<group>"; };
-		5F9AD09722AFFC350046773C /* Q3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q3.swift; sourceTree = "<group>"; };
-		5F9AD09822AFFC350046773C /* Q8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q8.swift; sourceTree = "<group>"; };
-		5F9AD09922AFFC350046773C /* Q5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q5.swift; sourceTree = "<group>"; };
-		5F9AD09A22AFFC350046773C /* Q9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q9.swift; sourceTree = "<group>"; };
-		5F9AD09B22AFFC350046773C /* Q4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q4.swift; sourceTree = "<group>"; };
-		5F9AD09C22AFFC350046773C /* Q10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q10.swift; sourceTree = "<group>"; };
+		5F9AD0A622B000A30046773C /* FAQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ2.swift; sourceTree = "<group>"; };
+		5F9AD0A822B000B30046773C /* FAQ3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ3.swift; sourceTree = "<group>"; };
+		5F9AD0AA22B000C10046773C /* FAQ4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ4.swift; sourceTree = "<group>"; };
+		5F9AD0AC22B000D70046773C /* FAQ5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ5.swift; sourceTree = "<group>"; };
+		5F9AD0AE22B004A00046773C /* FAQ6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ6.swift; sourceTree = "<group>"; };
+		5F9AD0B022B004BF0046773C /* FAQ7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ7.swift; sourceTree = "<group>"; };
+		5F9AD0B222B004D30046773C /* FAQ8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ8.swift; sourceTree = "<group>"; };
+		5F9AD0B422B004EA0046773C /* FAQ9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ9.swift; sourceTree = "<group>"; };
+		5F9AD0B622B004FB0046773C /* FAQ10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ10.swift; sourceTree = "<group>"; };
+		5F9AD0B822B0050D0046773C /* FAQ11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ11.swift; sourceTree = "<group>"; };
 		5F9B1C6222ABC3DE00581148 /* Main Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Page.swift"; sourceTree = "<group>"; };
 		5F9FB7C822AD5BBC0068C155 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F9FB7CA22AD5C330068C155 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 				5F3AD8DC22AAC72E00796BD9 /* AppDelegate.swift */,
 				5F3AD8E022AAC72E00796BD9 /* Main.storyboard */,
 				5F3AD8E322AAC73D00796BD9 /* Assets.xcassets */,
+				5F9AD06D22AFC25D0046773C /* Localizable.strings */,
 				5F3AD8E522AAC73D00796BD9 /* LaunchScreen.storyboard */,
 				5F3AD8E822AAC73D00796BD9 /* Info.plist */,
-				5F9AD06D22AFC25D0046773C /* Localizable.strings */,
 			);
 			path = "Puja Locator";
 			sourceTree = "<group>";
@@ -239,16 +239,16 @@
 			isa = PBXGroup;
 			children = (
 				5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */,
-				5F9AD09222AFFB5D0046773C /* Q2.swift */,
-				5F9AD09722AFFC350046773C /* Q3.swift */,
-				5F9AD09B22AFFC350046773C /* Q4.swift */,
-				5F9AD09922AFFC350046773C /* Q5.swift */,
-				5F9AD09522AFFC340046773C /* Q6.swift */,
-				5F9AD09622AFFC350046773C /* Q7.swift */,
-				5F9AD09822AFFC350046773C /* Q8.swift */,
-				5F9AD09A22AFFC350046773C /* Q9.swift */,
-				5F9AD09C22AFFC350046773C /* Q10.swift */,
-				5F9AD09422AFFC340046773C /* Q11.swift */,
+				5F9AD0AA22B000C10046773C /* FAQ4.swift */,
+				5F9AD0AC22B000D70046773C /* FAQ5.swift */,
+				5F9AD0A622B000A30046773C /* FAQ2.swift */,
+				5F9AD0A822B000B30046773C /* FAQ3.swift */,
+				5F9AD0AE22B004A00046773C /* FAQ6.swift */,
+				5F9AD0B022B004BF0046773C /* FAQ7.swift */,
+				5F9AD0B222B004D30046773C /* FAQ8.swift */,
+				5F9AD0B422B004EA0046773C /* FAQ9.swift */,
+				5F9AD0B622B004FB0046773C /* FAQ10.swift */,
+				5F9AD0B822B0050D0046773C /* FAQ11.swift */,
 			);
 			path = FAQAns;
 			sourceTree = "<group>";
@@ -390,36 +390,36 @@
 				5F9AD08822AFCF5D0046773C /* MahalaxmiHoma.swift in Sources */,
 				5F9AD07222AFC85A0046773C /* RudraPuja.swift in Sources */,
 				5F659AD422ABC68F00EDDEA5 /* FAQs.swift in Sources */,
-				5F9AD09D22AFFC350046773C /* Q11.swift in Sources */,
 				5F9AD07622AFCBF80046773C /* DurgaHoma.swift in Sources */,
 				5F3AD8DF22AAC72E00796BD9 /* ViewController.swift in Sources */,
-				5F9AD09E22AFFC350046773C /* Q6.swift in Sources */,
+				5F9AD0B122B004BF0046773C /* FAQ7.swift in Sources */,
 				5F3AD8DD22AAC72E00796BD9 /* AppDelegate.swift in Sources */,
-				5F9AD0A422AFFC350046773C /* Q4.swift in Sources */,
+				5F9AD0B322B004D30046773C /* FAQ8.swift in Sources */,
 				5F9AD08C22AFD05C0046773C /* NavagrahaHoma.swift in Sources */,
-				5F9AD0A122AFFC350046773C /* Q8.swift in Sources */,
-				5F9AD0A522AFFC350046773C /* Q10.swift in Sources */,
+				5F9AD0A722B000A30046773C /* FAQ2.swift in Sources */,
 				5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */,
-				5F9AD0A322AFFC350046773C /* Q9.swift in Sources */,
 				5F9AD08022AFCDBD0046773C /* VidyarambhamSanskar.swift in Sources */,
 				5F9AD08222AFCEAE0046773C /* ChandiHoma.swift in Sources */,
+				5F9AD0AF22B004A00046773C /* FAQ6.swift in Sources */,
+				5F9AD0B922B0050D0046773C /* FAQ11.swift in Sources */,
 				5F4216B122AEC64A0089E365 /* Settings.swift in Sources */,
+				5F9AD0A922B000B30046773C /* FAQ3.swift in Sources */,
 				5F9AD07822AFCC380046773C /* GaneshHoma.swift in Sources */,
 				5F9AD09022AFD0DA0046773C /* VaastuShantiHoma.swift in Sources */,
-				5F9AD0A022AFFC350046773C /* Q3.swift in Sources */,
 				5F9AD07422AFCBB90046773C /* DakshinamurtiPuja.swift in Sources */,
-				5F9AD09322AFFB5D0046773C /* Q2.swift in Sources */,
 				5F9AD07E22AFCD7F0046773C /* DhanvantariHoma.swift in Sources */,
+				5F9AD0B522B004EA0046773C /* FAQ9.swift in Sources */,
 				5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */,
 				5F9AD07C22AFCD020046773C /* Upanayan.swift in Sources */,
-				5F9AD09F22AFFC350046773C /* Q7.swift in Sources */,
-				5F9AD0A222AFFC350046773C /* Q5.swift in Sources */,
+				5F9AD0AB22B000C10046773C /* FAQ4.swift in Sources */,
 				5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */,
 				5F9AD07A22AFCCC90046773C /* NavchandiHoma.swift in Sources */,
 				5F9AD08422AFCEEA0046773C /* MahaGanapati.swift in Sources */,
 				5F9AD08E22AFD0970046773C /* SudharshanHoma.swift in Sources */,
 				5F9AD08622AFCF210046773C /* KalashSthapana.swift in Sources */,
+				5F9AD0AD22B000D70046773C /* FAQ5.swift in Sources */,
 				5F9AD08A22AFD0220046773C /* MahaRudraPuja.swift in Sources */,
+				5F9AD0B722B004FB0046773C /* FAQ10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -45,8 +45,76 @@ class Main_Page: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let langset = segue.destination as? FAQs else{return}
-        langset.langSettings = langMain
+        if segue.identifier == "toFAQ" {
+            guard let langset = segue.destination as? FAQs else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t1" {
+            guard let langset = segue.destination as? RudraPuja else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t2" {
+            guard let langset = segue.destination as? DakshinamurtiPuja else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t3" {
+            guard let langset = segue.destination as? GaneshHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t4" {
+            guard let langset = segue.destination as? DurgaHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t5" {
+            guard let langset = segue.destination as? NavchandiHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t6" {
+            guard let langset = segue.destination as? Upanayan else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t7" {
+            guard let langset = segue.destination as? DhanvantariHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t8" {
+            guard let langset = segue.destination as? VidyarambhamSanskar else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t9" {
+            guard let langset = segue.destination as? ChandiHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t10" {
+            guard let langset = segue.destination as? MahaGanapati else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t11" {
+            guard let langset = segue.destination as? KalashSthapana else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t12" {
+            guard let langset = segue.destination as? MahalaxmiHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t13" {
+            guard let langset = segue.destination as? MahaRudraPuja else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t14" {
+            guard let langset = segue.destination as? NavagrahaHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t15" {
+            guard let langset = segue.destination as? SudharshanHoma else{return}
+            langset.langSettings = langMain
+        }
+        else if segue.identifier == "t16" {
+            guard let langset = segue.destination as? VaastuShantiHoma else{return}
+            langset.langSettings = langMain
+        }
+        
+
     }
     
     

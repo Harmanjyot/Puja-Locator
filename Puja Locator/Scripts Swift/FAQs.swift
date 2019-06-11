@@ -35,10 +35,56 @@ class FAQs: UIViewController {
     @IBOutlet weak var q9Lbl: UIButton!
     @IBOutlet weak var q10Lbl: UIButton!
     @IBOutlet weak var q11Lbl: UIButton!
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let langset = segue.destination as? ansFAQs else{return}
-        langset.langsettings = langFAQ
+        if segue.identifier == "segueQ1"{
+            guard let langset = segue.destination as? ansFAQs else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ2" {
+            guard let langset = segue.destination as? FAQ2 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ3" {
+            guard let langset = segue.destination as? FAQ3 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ4" {
+            guard let langset = segue.destination as? FAQ4 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ5" {
+            guard let langset = segue.destination as? FAQ5 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ6" {
+            guard let langset = segue.destination as? FAQ6 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ7" {
+            guard let langset = segue.destination as? FAQ7 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ8" {
+            guard let langset = segue.destination as? FAQ8 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ9" {
+            guard let langset = segue.destination as? FAQ9 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ10" {
+            guard let langset = segue.destination as? FAQ10 else{return}
+            langset.langsettings = langFAQ
+        }
+        else if segue.identifier == "segueQ11" {
+            guard let langset = segue.destination as? FAQ11 else{return}
+            langset.langsettings = langFAQ
+        }
+        
+        
+        
     }
     
     override func viewDidLoad() {
