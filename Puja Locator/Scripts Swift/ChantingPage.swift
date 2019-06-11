@@ -13,6 +13,9 @@ class ChantingPage: UIViewController {
     
     //INITIALIZING VARIABLES AND INSTANCES
     
+    
+    @IBOutlet weak var chantLbl: UILabel!
+    
     @IBOutlet weak var buttonLbl: UIButton!
     var count = 0
     

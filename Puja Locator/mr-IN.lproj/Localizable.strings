@@ -1,0 +1,186 @@
+/* 
+  Localizable.strings
+  Puja Locator
+
+  Created by Harmanjyot on 11/06/19.
+  Copyright © 2019 Harmanjyot. All rights reserved.
+*/
+
+
+/*
+ Localizable.string.strings
+ Puja Locator
+ 
+ Created by Harmanjyot on 10/06/19.
+ Copyright © 2019 Harmanjyot. All rights reserved.
+ */
+
+// "key" = "translation"
+
+
+"logpgTxtOne" = "|| Jai Gurudev ||";
+"logpgTxtTwo" = "Please enter your details below for a one time registration process";
+
+
+/* Class = "UILabel"; text = "Navchandi Homa"; ObjectID = "0AD-6s-6R4"; */
+"headtitleNavchandi" = "Navchandi Homa";
+
+/* Class = "UILabel"; text = "Vaastu Shanti Homa"; ObjectID = "0Si-y3-dkv"; */
+"headtitleVaasti" = "Vaastu Shanti Homa";
+
+/* Class = "UILabel"; text = "FAQs"; ObjectID = "129-ax-3Xh"; */
+"headtitleFAQ" = "FAQs";
+
+/* Class = "UILabel"; text = "Q: How can I book a personal Rudra puja?"; ObjectID = "2Ar-Sv-Oze"; */
+"faqQ10" = "Q: How can I book a personal Rudra puja?";
+
+/* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "2DE-Ip-R6T"; */
+"comingSoonKey" = "Coming Soon!";
+
+/* Class = "UILabel"; text = "Q: What are the benefits of Sankalp?"; ObjectID = "3Vg-18-KvD"; */
+"faqQ5" = "Q: What are the benefits of Sankalp?";
+
+
+/* Class = "UIButton"; normalTitle = "Q:  How can I book/offer my Sankalp for Rudrapuja?"; ObjectID = "3xh-os-rmW"; */
+"faqQ9" = "Q:  How can I book/offer my Sankalp for Rudrapuja?";
+
+
+"faqA7" = "A: The word 'Panchamrita' is a combination of two words - 'Pancha' and 'Amrita'. 'Pancha' means five and 'Amrita' means nectar of the Gods. It is a sacred mixture of five ingredients i.e. milk, curd, honey, jaggery and ghee. Though jaggery is needed, nowadays sugar is being used instead. The five Devas (deities) reside in these five ingredients. Savitru resides in sugar, Vishwedeva in honey, Surya in ghee, Vayu in curd and Soma in milk. So when you offer them as Abhisheka, the intention is that may the divine qualities of these Devas blossom in our lives. ";
+
+
+"logCity" = "Enter City";
+
+"faqQ6" = "Q: How is Rudrapuja performed?";
+
+"faqQ1" = "Q:  What is Rudrapuja?";
+
+"faqQ2" = "Q: Why is Rudrapuja performed or what is its significance?";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "CTH-pf-r2H"; */
+"settingsKey" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "D3a-Ao-BEF"; */
+"englishKey" = "English";
+
+/* Class = "UILabel"; text = "Q: What is the significance of Panchamrita Rudrabhishekham?"; ObjectID = "Dp2-Mf-6ji"; */
+"faqQ7" = "Q: What is the significance of Panchamrita Rudrabhishekham?";
+
+/* Class = "UILabel"; text = "Kalash Sthapana"; ObjectID = "Ejj-nf-R12"; */
+"headtitleKalash" = "Kalash Sthapana";
+
+/* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "FvT-gO-4cj"; */
+"logEmail" = "Enter Email ID";
+
+"faqA9" = "A: You can contact the Vaidic Dharma Sansthan co-ordinator of your area of write to us at aol.vds@gmail.com";
+
+/* Class = "UILabel"; text = "Vidyarambham Sanskar"; ObjectID = "Jte-bm-eZ0"; */
+"headtitleVidyarambham" = "Vidyarambham Sanskar";
+
+/* Class = "UITextField"; placeholder = "Enter Mobile Number"; ObjectID = "LCG-eN-oEg"; */
+"logMobile" = "Enter Mobile Number";
+
+"faqA4" = "A: Sankalp is the specific purpose (good intention) for which you are getting the puja performed. For a seed to grow into a tree, it needs to grow in to a tree, it needs to be offered to the consciousness. Similarly, when we offer our wishes and desires in the form of Sankalp to the Divine, they manifest into reality. This is the power of Sankalp.";
+
+/* Class = "UIButton"; normalTitle = "Q:  What do chants signify?"; ObjectID = "NIX-cu-ih7"; */
+"faqQ8" = "Q:  What do chants signify?";
+
+/* Class = "UILabel"; text = "Puja Locator"; ObjectID = "O0y-BQ-uXq"; */
+"mainHead" = "Puja Locator";
+
+/* Class = "UILabel"; text = "A: During Shraavan Mass, the generative aspect of nature is in full bloom and all that is sowed, blossoms without much effort. In the same way, when you do Rudrapuja in Shraavan, it is believed to have manifold effect on the Sankalp that you offer."; ObjectID = "ON0-od-mF4"; */
+"faqA3" = "A: During Shraavan Mass, the generative aspect of nature is in full bloom and all that is sowed, blossoms without much effort. In the same way, when you do Rudrapuja in Shraavan, it is believed to have manifold effect on the Sankalp that you offer.";
+
+/* Class = "UILabel"; text = "A: Rudrapuja is an ancient practice that has been followed in India since time immemorial. In Rudrapuja, Lord Shiva is worshipped in his Rudra form. 'Rudra' means Shiva who is benevolent - the one who is kind and generous. He is also the destroyer of evil. 'Puja' means an action which is born out of fullness. So during the Rudrapuja, when we pray and offer our worries and desires to the Divine with complete gratitude, we experience inner peace, joy, and fulfilment and become free from worries. It is indeed a blessing to be a part of the auspicious Rudrapuja"; ObjectID = "OQq-ig-1Pe"; */
+"faqA1" = "A: Rudrapuja is an ancient practice that has been followed in India since time immemorial. In Rudrapuja, Lord Shiva is worshipped in his Rudra form. 'Rudra' means Shiva who is benevolent - the one who is kind and generous. He is also the destroyer of evil. 'Puja' means an action which is born out of fullness. So during the Rudrapuja, when we pray and offer our worries and desires to the Divine with complete gratitude, we experience inner peace, joy, and fulfilment and become free from worries. It is indeed a blessing to be a part of the auspicious Rudrapuja";
+
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "UaA-Bv-qVR"; */
+"logSubmit" = "SUBMIT";
+
+
+/* Class = "UILabel"; text = "Q: What is Sankalp?"; ObjectID = "WMu-sd-Oo5"; */
+"faqQ4" = "Q: What is Sankalp?";
+
+/* Class = "UIButton"; normalTitle = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?"; ObjectID = "X39-2M-lWx"; */
+"faqQ3" = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?";
+
+
+/* Class = "UILabel"; text = "Navagraha Homa"; ObjectID = "a4j-PG-J3z"; */
+"headtitleNavagraha" = "Navagraha Homa";
+
+
+/* Class = "UIButton"; normalTitle = "Marathi"; ObjectID = "b0x-Fx-UMB"; */
+"marathiKey" = "Marathi";
+
+/* Class = "UILabel"; text = "A: Yes, of course. The auspicious Rudrapuja is for one and all. Everyone is welcomed to attend the Rudrapuja and also offer the Sankalp. It is a great blessing for all of us to be part of this divine experience. Invite all your AOL and non-AOL friends, families, neighbours to the Shraavan Maas Rudrapuja. Be there, be blessed!!!"; ObjectID = "ccG-cl-82N"; */
+"faqA11" = "A: Yes, of course. The auspicious Rudrapuja is for one and all. Everyone is welcomed to attend the Rudrapuja and also offer the Sankalp. It is a great blessing for all of us to be part of this divine experience. Invite all your AOL and non-AOL friends, families, neighbours to the Shraavan Maas Rudrapuja. Be there, be blessed!!!";
+
+/* Class = "UILabel"; text = "A: Rudrapuja is performed with a crystal 'Linga'. The Linga is a symbolic representation or swarupa of Lord Shiva. Each ancient mantra that is being chanted gets absorbed into the Panchamrita ingredients; milk, curd, honey, jaggery and ghee. This Panchamrita is then offered to Lord Shiva with love, reverence and gratitude. The chanting of these ancient mantras removes then negative vibes, creates positive energy and is so pure and meditative that it takes one on to a different level of consciousness."; ObjectID = "dnT-pr-6zQ"; */
+"faqA6" = "A: Rudrapuja is performed with a crystal 'Linga'. The Linga is a symbolic representation or swarupa of Lord Shiva. Each ancient mantra that is being chanted gets absorbed into the Panchamrita ingredients; milk, curd, honey, jaggery and ghee. This Panchamrita is then offered to Lord Shiva with love, reverence and gratitude. The chanting of these ancient mantras removes then negative vibes, creates positive energy and is so pure and meditative that it takes one on to a different level of consciousness.";
+
+/* Class = "UIButton"; normalTitle = "Take the Quiz!"; ObjectID = "e27-YP-nZM"; */
+"quizMainpg" = "Take the Quiz!";
+
+/* Class = "UILabel"; text = "Sri Sudarshan Homa"; ObjectID = "eXW-pm-nQf"; */
+"headtitleSudarshan" = "Sri Sudarshan Homa";
+
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "fsY-2Y-a76"; */
+"languageSelect" = "Select Language";
+
+/* Class = "UILabel"; text = "A: You can write to us at: aol.vds@gmail.com "; ObjectID = "fvO-Q5-2aR"; */
+"faqA10" = "A: You can write to us at: aol.vds@gmail.com ";
+
+/* Class = "UILabel"; text = "Sri Maha Rudra Puja"; ObjectID = "hFV-fM-IkQ"; */
+"headtitleMaharudraPuja" = "Sri Maha Rudra Puja";
+
+
+/* Class = "UILabel"; text = "Upanayan"; ObjectID = "hzO-jy-8pq"; */
+"headtitleUpanayan" = "Upanayan";
+
+/* Class = "UIButton"; normalTitle = "Q: Can people who have not yet done any Art of Living course attend Rudra puja and/or offer Sankalp?"; ObjectID = "iDP-Fr-iN1"; */
+"faqQ11" = "Q: Can people who have not yet done any Art of Living course attend Rudra puja and/or offer Sankalp?";
+
+/* Class = "UILabel"; text = "Samuhik Pujas"; ObjectID = "jnr-r7-Cz6"; */
+"mainpgLabl" = "Samuhik Pujas";
+
+/* Class = "UILabel"; text = "Sri Maha Ganapati"; ObjectID = "jtv-zQ-VXx"; */
+"headtitleMahaGanapati" = "Sri Maha Ganapati";
+
+/* Class = "UILabel"; text = "Dhanvantari Homa"; ObjectID = "jvi-hn-I2F"; */
+"headtitleDhanvantariHoma" = "Dhanvantari Homa";
+
+/* Class = "UIButton"; normalTitle = "Hindi"; ObjectID = "lMD-dl-mdn"; */
+"hindiKey" = "Hindi";
+
+/* Class = "UILabel"; text = "Rudra Puja"; ObjectID = "lOt-rP-LlO"; */
+"headtitleRudraPuja" = "Rudra Puja";
+
+/* Class = "UILabel"; text = "Durga Homa"; ObjectID = "mLf-89-IUg"; */
+"headtitleDurgaHoma" = "Durga Homa";
+
+/* Class = "UILabel"; text = "Dakshinamurti Puja"; ObjectID = "mfQ-BU-fAn"; */
+"headtitleDakshinamrutiPuja" = "Dakshinamurti Puja";
+
+/* Class = "UILabel"; text = "A: Sankalp is offered to get rid off ones sins and afflictions, for bringing in health, peace, joy and prosperity, along with happiness in the family. In fact, Sankalp brings so much peace and prosperity that more than 95% of people continue to offer Sankalp every year for themselves as well as their loved ones and for the benefit of one and all."; ObjectID = "mye-s0-6NS"; */
+"faqA4" = "A: Sankalp is offered to get rid off ones sins and afflictions, for bringing in health, peace, joy and prosperity, along with happiness in the family. In fact, Sankalp brings so much peace and prosperity that more than 95% of people continue to offer Sankalp every year for themselves as well as their loved ones and for the benefit of one and all.";
+
+/* Class = "UILabel"; text = "Sri Chandi Homa"; ObjectID = "nG3-7s-dPD"; */
+"headtitleChandiHoma" = "Sri Chandi Homa";
+
+/* Class = "UILabel"; text = "A: This world is a play of both positive and negative energies. During Rudrapuja, when we pray to Shiva - The Lord of Transformation; the entire negative energy which is present around us in form of disease, depression and unhappiness gets transformed positively into peace, prosperity and joy. We are then surrounded by peace in the body, mind and soul. The nature too flourishes and becomes rejoicefull. In India, Rudrapuja is being practised since time immemorial. The ancient holy scriptures such as Vedas consider it to be as one of the greatest pujas for removal of all evils, for fulfilment of all desires and for prosperity. Even the astrological scriptures prescribe Rudrapuja as a remedy for several dosas."; ObjectID = "o6o-RQ-ABG"; */
+"faqA2" = "A: This world is a play of both positive and negative energies. During Rudrapuja, when we pray to Shiva - The Lord of Transformation; the entire negative energy which is present around us in form of disease, depression and unhappiness gets transformed positively into peace, prosperity and joy. We are then surrounded by peace in the body, mind and soul. The nature too flourishes and becomes rejoicefull. In India, Rudrapuja is being practised since time immemorial. The ancient holy scriptures such as Vedas consider it to be as one of the greatest pujas for removal of all evils, for fulfilment of all desires and for prosperity. Even the astrological scriptures prescribe Rudrapuja as a remedy for several dosas.";
+
+/* Class = "UILabel"; text = "Ganesh Homa"; ObjectID = "okZ-lQ-Twm"; */
+"headtitleGaneshHoma" = "Ganesh Homa";
+
+
+/* Class = "UILabel"; text = "A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says \"Cha main\". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect."; ObjectID = "rl9-gN-3hI"; */
+"faqA8" = "A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says \"Cha main\". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect.";
+
+
+/* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "ufr-Yp-20B"; */
+"logName" = "Enter Name";
+
+/* Class = "UILabel"; text = "Tap here to start chanting"; ObjectID = "v0O-uC-Px9"; */
+"chantKey" = "Tap here to start chanting";

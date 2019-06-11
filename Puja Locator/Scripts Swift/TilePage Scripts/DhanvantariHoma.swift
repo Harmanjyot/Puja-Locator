@@ -1,15 +1,17 @@
 //
-//  ansFAQs.swift
+//  DhanvantariHoma.swift
 //  Puja Locator
 //
-//  Created by Harmanjyot on 09/06/19.
+//  Created by Harmanjyot on 11/06/19.
 //  Copyright © 2019 Harmanjyot. All rights reserved.
 //
 
 import UIKit
 
-class ansFAQs: UIViewController {
-
+class DhanvantariHoma: UIViewController {
+    @IBOutlet weak var topHead: UILabel!
+    @IBOutlet weak var lbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
