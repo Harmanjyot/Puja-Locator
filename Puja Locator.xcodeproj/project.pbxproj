@@ -45,6 +45,7 @@
 		5F9AD0B922B0050D0046773C /* FAQ11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B822B0050D0046773C /* FAQ11.swift */; };
 		5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B1C6222ABC3DE00581148 /* Main Page.swift */; };
 		5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */; };
+		5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */; };
 		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +119,7 @@
 		5F9FB7C822AD5BBC0068C155 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F9FB7CA22AD5C330068C155 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ansFAQs.swift; sourceTree = "<group>"; };
+		5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizMainPage.swift; sourceTree = "<group>"; };
 		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,8 +174,8 @@
 				5F659AD222ABC5F500EDDEA5 /* Scripts Swift */,
 				5F3AD8DC22AAC72E00796BD9 /* AppDelegate.swift */,
 				5F3AD8E022AAC72E00796BD9 /* Main.storyboard */,
-				5F3AD8E322AAC73D00796BD9 /* Assets.xcassets */,
 				5F9AD06D22AFC25D0046773C /* Localizable.strings */,
+				5F3AD8E322AAC73D00796BD9 /* Assets.xcassets */,
 				5F3AD8E522AAC73D00796BD9 /* LaunchScreen.storyboard */,
 				5F3AD8E822AAC73D00796BD9 /* Info.plist */,
 			);
@@ -207,6 +209,7 @@
 				5F3AD8DE22AAC72E00796BD9 /* ViewController.swift */,
 				5F9B1C6222ABC3DE00581148 /* Main Page.swift */,
 				5F659AD322ABC68F00EDDEA5 /* FAQs.swift */,
+				5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */,
 				5F4216B022AEC64A0089E365 /* Settings.swift */,
 			);
 			path = "Scripts Swift";
@@ -395,6 +398,7 @@
 				5F9AD0B122B004BF0046773C /* FAQ7.swift in Sources */,
 				5F3AD8DD22AAC72E00796BD9 /* AppDelegate.swift in Sources */,
 				5F9AD0B322B004D30046773C /* FAQ8.swift in Sources */,
+				5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */,
 				5F9AD08C22AFD05C0046773C /* NavagrahaHoma.swift in Sources */,
 				5F9AD0A722B000A30046773C /* FAQ2.swift in Sources */,
 				5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */,
