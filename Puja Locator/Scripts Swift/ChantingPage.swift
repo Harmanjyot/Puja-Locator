@@ -13,15 +13,18 @@ class ChantingPage: UIViewController {
     
     //INITIALIZING VARIABLES AND INSTANCES
     
+  
+    @IBOutlet weak var countLabel: UILabel!
     
     @IBOutlet weak var chantLbl: UILabel!
     
     @IBOutlet weak var buttonLbl: UIButton!
     var count = 0
+    var malaCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonLbl.setTitle(String(count), for: UIControl.State.normal)
+        countLabel.text = String(0)
         // Do any additional setup after loading the view.
     }
     
@@ -30,10 +33,12 @@ class ChantingPage: UIViewController {
     @IBAction func buttonAct(_ sender: Any) {
         
         count = count+1
-        buttonLbl.setTitle(String(count), for: UIControl.State.normal)
+        countLabel.text = String(count)
         if count == 108 {
             AudioServicesPlayAlertSound(kSystemSoundID_Vibrate) //iPhone WILL VIBRATE
             count = 0
+            malaCount = malaCount + 1
+            chantLbl.text = String(malaCount) + " Malas counted"
             
         }
         
