@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 extension UITextField {
 //    func setPadding() {
 //        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 70, height: self.frame.height))
@@ -35,6 +36,7 @@ extension UITextField {
 }
 class ViewController: UIViewController {
 
+    @IBOutlet weak var openView: UIView!
     @IBOutlet weak var EmailID: UITextField! {
         didSet{
 //            EmailID.setPadding()
@@ -93,9 +95,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        
+        openView.isHidden = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            self.openView.isHidden = true
+        }
+       
     }
 
 
