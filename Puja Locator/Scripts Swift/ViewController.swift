@@ -9,6 +9,12 @@
 import UIKit
 
 
+let defaults = UserDefaults.standard
+var userSetToiPhone: Bool?
+var textname: String?
+var textemail: String?
+var textmobile: String?
+var textcity: String?
 extension UITextField {
 //    func setPadding() {
 //        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 70, height: self.frame.height))
@@ -35,8 +41,9 @@ extension UITextField {
     
 }
 class ViewController: UIViewController {
+    
 
-    @IBOutlet weak var openView: UIView!
+
     @IBOutlet weak var EmailID: UITextField! {
         didSet{
 //            EmailID.setPadding()
@@ -49,13 +56,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var LoginBtn: UIButton!
     
-    @IBOutlet weak var Password: UITextField! {
+    @IBOutlet weak var Name: UITextField!{
         didSet{
-//            Password.setPadding()
-            Password.setBottomBorder()
-            Password.attributedPlaceholder = NSAttributedString(string: "Enter Name")
-            Password.tintColor = UIColor.lightGray
-//            Password.setIcon(image: #imageLiteral(resourceName: "password icon-2"))
+            //            Password.setPadding()
+            Name.setBottomBorder()
+            Name.attributedPlaceholder = NSAttributedString(string: "Enter Name")
+            Name.tintColor = UIColor.lightGray
+            Name.textColor = UIColor.black
+            //            Password.setIcon(image: #imageLiteral(resourceName: "password icon-2"))
             
         }
     }
@@ -77,11 +85,7 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    //THE LOGIN BUTTON
-    
-    
+   
     @IBOutlet weak var logBtn: UIButton!{
         didSet {
             logBtn.layer.shadowColor = UIColor.black.cgColor
@@ -91,17 +95,58 @@ class ViewController: UIViewController {
             logBtn.layer.shadowOpacity = 0.5
         }
     }
-    
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        openView.isHidden = false
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            self.openView.isHidden = true
+        userSetToiPhone = defaults.bool(forKey: "userSetToiPhone")
+        if userSetToiPhone == true {
+            textname = defaults.string(forKey: "textname")
+            textemail = defaults.string(forKey: "textemail")
+            textmobile = defaults.string(forKey: "textmobile")
+            textcity = defaults.string(forKey: "textcity")
+
+            Name.text = textname
+            EmailID.text = textemail
+            mobiNum.text = textmobile
+            cityLbl.text = textcity
+            
         }
-       
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if userSetToiPhone == true {
+            performSegue(withIdentifier: "toMainPage", sender: nil)
+        }
+
     }
 
+    @IBAction func submitAction(_ sender: Any) {
+        if((Name.text?.isEmpty)! || (EmailID.text?.isEmpty)! || (mobiNum.text?.isEmpty)! || (cityLbl.text?.isEmpty)!){
+            
+            let alertController = UIAlertController(title: "Incomplete Information", message: "Please fill all the required fields", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+            self.present(alertController, animated: true, completion: nil)
+        }
+        else {
+            textname = Name.text
+            textemail = EmailID.text
+            textmobile = mobiNum.text
+            textcity = cityLbl.text
+            userSetToiPhone = true
+            
+            defaults.set(textname, forKey: "textname")
+            defaults.set(textemail, forKey: "textemail")
+            defaults.set(textmobile, forKey: "textmobile")
+            defaults.set(textcity, forKey: "textcity")
+            defaults.set(userSetToiPhone, forKey: "userSetToiPhone")
+            
+            let url = NSURL(string: "http://localhost/Puja Locator/register.php")
+            
+            performSegue(withIdentifier: "toMainPage", sender: nil)
+            }
+        }
+        
+    }
+    
 
-}
 
