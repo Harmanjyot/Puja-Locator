@@ -40,56 +40,63 @@ extension Date {
     }
 }
 
-
-
 class quizMainPage: UIViewController {
 
     @IBOutlet weak var buttonWeek1: UIButton!
     @IBOutlet weak var buttonWeek2: UIButton!
     @IBOutlet weak var buttonWeek3: UIButton!
     @IBOutlet weak var buttonWeek4: UIButton!
-        
-   
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         getTestConditions()
         setButtonStatus()
-        
     }
     
     func getTestConditions() {
         let rightNowStr = rightNow.dateToString(style: .long)
         if rightNowStr == week1Quiz {
             quiz1Avail = true
+            buttonWeek1.isEnabled = true
+            buttonWeek1.setBackgroundImage(UIImage(named: "play-icon.png"), for: .normal)
         }
         else {
             quiz1Avail = false
             print("works")
+            buttonWeek1.isEnabled = false
         }
         
         if rightNowStr == week2Quiz {
             quiz2Avail = true
+            buttonWeek2.isEnabled = true
+            buttonWeek1.setBackgroundImage(UIImage(named: "play-icon.png"), for: .normal)
         }
         else {
             quiz2Avail = false
             print("works")
+            buttonWeek2.isEnabled = false
         }
         
         if rightNowStr == week3Quiz {
             quiz3Avail = true
+            buttonWeek3.isEnabled = true
+            buttonWeek1.setBackgroundImage(UIImage(named: "play-icon.png"), for: .normal)
         }
         else {
             quiz3Avail = false
             print("works")
+            buttonWeek3.isEnabled = false
         }
         
         if rightNowStr == week4Quiz {
             quiz4Avail = true
+            buttonWeek4.isEnabled = true
+            buttonWeek1.setBackgroundImage(UIImage(named: "play-icon.png"), for: .normal)
         }
         else {
             quiz4Avail = false
             print("works")
+            buttonWeek4.isEnabled = false
         }
     }
     
@@ -97,43 +104,43 @@ class quizMainPage: UIViewController {
         if (quiz1Done == true || quiz1Avail == false)
         {
             buttonWeek1.setBackgroundImage(UIImage(named: "greyPlay-icon.png"), for: .normal)
+            buttonWeek1.isEnabled = false
         }
         
         if (quiz2Done == true || quiz2Avail == false)
         {
             buttonWeek2.setBackgroundImage(UIImage(named: "greyPlay-icon.png"), for: .normal)
+            buttonWeek2.isEnabled = false
         }
         
         if (quiz3Done == true || quiz3Avail == false)
         {
             buttonWeek3.setBackgroundImage(UIImage(named: "greyPlay-icon.png"), for: .normal)
+            buttonWeek3.isEnabled = false
         }
         
         if (quiz4Done == true || quiz4Avail == false)
         {
             buttonWeek4.setBackgroundImage(UIImage(named: "greyPlay-icon.png"), for: .normal)
+            buttonWeek4.isEnabled = false
         }
     }
-    
     
     @IBAction func quiz1Btn(_ sender: Any) {
         quiz1Enter = true
         quiz1Avail = false
         quiz1Done = true
     }
-    
     @IBAction func quiz2Btn(_ sender: Any) {
         quiz2Enter = true
         quiz2Avail = false
         quiz2Done = true
     }
-    
     @IBAction func quiz3Btn(_ sender: Any) {
         quiz3Enter = true
         quiz3Avail = false
         quiz3Done = true
     }
-    
     @IBAction func quiz4Btn(_ sender: Any) {
         quiz4Enter = true
         quiz4Avail = false

@@ -45,6 +45,16 @@
 		5F9AD0B922B0050D0046773C /* FAQ11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD0B822B0050D0046773C /* FAQ11.swift */; };
 		5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B1C6222ABC3DE00581148 /* Main Page.swift */; };
 		5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */; };
+		5FAFCDB222BEA234003BC78D /* quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDB122BEA234003BC78D /* quiz1.swift */; };
+		5FAFCDB422BEA258003BC78D /* quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDB322BEA258003BC78D /* quiz2.swift */; };
+		5FAFCDB622BEA272003BC78D /* quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDB522BEA272003BC78D /* quiz3.swift */; };
+		5FAFCDB822BEA281003BC78D /* quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDB722BEA281003BC78D /* quiz4.swift */; };
+		5FAFCDBA22BEA291003BC78D /* quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDB922BEA291003BC78D /* quiz5.swift */; };
+		5FAFCDBC22BEA2A0003BC78D /* quiz6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDBB22BEA2A0003BC78D /* quiz6.swift */; };
+		5FAFCDBE22BEA2B2003BC78D /* quiz7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDBD22BEA2B2003BC78D /* quiz7.swift */; };
+		5FAFCDC022BEA2C4003BC78D /* quiz8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */; };
+		5FAFCDC222BEA2D2003BC78D /* quiz9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDC122BEA2D2003BC78D /* quiz9.swift */; };
+		5FAFCDC422BEA2E2003BC78D /* quiz10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDC322BEA2E2003BC78D /* quiz10.swift */; };
 		5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */; };
 		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
 /* End PBXBuildFile section */
@@ -119,6 +129,16 @@
 		5F9FB7C822AD5BBC0068C155 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F9FB7CA22AD5C330068C155 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		5F9FB7CD22AD675C0068C155 /* ansFAQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ansFAQs.swift; sourceTree = "<group>"; };
+		5FAFCDB122BEA234003BC78D /* quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz1.swift; sourceTree = "<group>"; };
+		5FAFCDB322BEA258003BC78D /* quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz2.swift; sourceTree = "<group>"; };
+		5FAFCDB522BEA272003BC78D /* quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3.swift; sourceTree = "<group>"; };
+		5FAFCDB722BEA281003BC78D /* quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz4.swift; sourceTree = "<group>"; };
+		5FAFCDB922BEA291003BC78D /* quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz5.swift; sourceTree = "<group>"; };
+		5FAFCDBB22BEA2A0003BC78D /* quiz6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz6.swift; sourceTree = "<group>"; };
+		5FAFCDBD22BEA2B2003BC78D /* quiz7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz7.swift; sourceTree = "<group>"; };
+		5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz8.swift; sourceTree = "<group>"; };
+		5FAFCDC122BEA2D2003BC78D /* quiz9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz9.swift; sourceTree = "<group>"; };
+		5FAFCDC322BEA2E2003BC78D /* quiz10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz10.swift; sourceTree = "<group>"; };
 		5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizMainPage.swift; sourceTree = "<group>"; };
 		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +223,7 @@
 		5F659AD222ABC5F500EDDEA5 /* Scripts Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5FAFCDB022BEA01C003BC78D /* quizScripts */,
 				5F9AD09122AFFA390046773C /* FAQAns */,
 				5F9AD07022AFC7CA0046773C /* TilePage Scripts */,
 				5FF8329822ACBF3B000894E7 /* ChantingPage.swift */,
@@ -254,6 +275,23 @@
 				5F9AD0B822B0050D0046773C /* FAQ11.swift */,
 			);
 			path = FAQAns;
+			sourceTree = "<group>";
+		};
+		5FAFCDB022BEA01C003BC78D /* quizScripts */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFCDB122BEA234003BC78D /* quiz1.swift */,
+				5FAFCDB322BEA258003BC78D /* quiz2.swift */,
+				5FAFCDB522BEA272003BC78D /* quiz3.swift */,
+				5FAFCDB722BEA281003BC78D /* quiz4.swift */,
+				5FAFCDB922BEA291003BC78D /* quiz5.swift */,
+				5FAFCDBB22BEA2A0003BC78D /* quiz6.swift */,
+				5FAFCDBD22BEA2B2003BC78D /* quiz7.swift */,
+				5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */,
+				5FAFCDC122BEA2D2003BC78D /* quiz9.swift */,
+				5FAFCDC322BEA2E2003BC78D /* quiz10.swift */,
+			);
+			path = quizScripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9AD08822AFCF5D0046773C /* MahalaxmiHoma.swift in Sources */,
+				5FAFCDB622BEA272003BC78D /* quiz3.swift in Sources */,
 				5F9AD07222AFC85A0046773C /* RudraPuja.swift in Sources */,
 				5F659AD422ABC68F00EDDEA5 /* FAQs.swift in Sources */,
 				5F9AD07622AFCBF80046773C /* DurgaHoma.swift in Sources */,
@@ -402,10 +441,15 @@
 				5F9AD08C22AFD05C0046773C /* NavagrahaHoma.swift in Sources */,
 				5F9AD0A722B000A30046773C /* FAQ2.swift in Sources */,
 				5F9FB7CE22AD675C0068C155 /* ansFAQs.swift in Sources */,
+				5FAFCDBC22BEA2A0003BC78D /* quiz6.swift in Sources */,
+				5FAFCDBA22BEA291003BC78D /* quiz5.swift in Sources */,
 				5F9AD08022AFCDBD0046773C /* VidyarambhamSanskar.swift in Sources */,
+				5FAFCDB422BEA258003BC78D /* quiz2.swift in Sources */,
 				5F9AD08222AFCEAE0046773C /* ChandiHoma.swift in Sources */,
 				5F9AD0AF22B004A00046773C /* FAQ6.swift in Sources */,
+				5FAFCDC222BEA2D2003BC78D /* quiz9.swift in Sources */,
 				5F9AD0B922B0050D0046773C /* FAQ11.swift in Sources */,
+				5FAFCDC422BEA2E2003BC78D /* quiz10.swift in Sources */,
 				5F4216B122AEC64A0089E365 /* Settings.swift in Sources */,
 				5F9AD0A922B000B30046773C /* FAQ3.swift in Sources */,
 				5F9AD07822AFCC380046773C /* GaneshHoma.swift in Sources */,
@@ -413,13 +457,17 @@
 				5F9AD07422AFCBB90046773C /* DakshinamurtiPuja.swift in Sources */,
 				5F9AD07E22AFCD7F0046773C /* DhanvantariHoma.swift in Sources */,
 				5F9AD0B522B004EA0046773C /* FAQ9.swift in Sources */,
+				5FAFCDB222BEA234003BC78D /* quiz1.swift in Sources */,
 				5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */,
 				5F9AD07C22AFCD020046773C /* Upanayan.swift in Sources */,
 				5F9AD0AB22B000C10046773C /* FAQ4.swift in Sources */,
 				5F9B1C6322ABC3DE00581148 /* Main Page.swift in Sources */,
 				5F9AD07A22AFCCC90046773C /* NavchandiHoma.swift in Sources */,
+				5FAFCDB822BEA281003BC78D /* quiz4.swift in Sources */,
 				5F9AD08422AFCEEA0046773C /* MahaGanapati.swift in Sources */,
 				5F9AD08E22AFD0970046773C /* SudharshanHoma.swift in Sources */,
+				5FAFCDBE22BEA2B2003BC78D /* quiz7.swift in Sources */,
+				5FAFCDC022BEA2C4003BC78D /* quiz8.swift in Sources */,
 				5F9AD08622AFCF210046773C /* KalashSthapana.swift in Sources */,
 				5F9AD0AD22B000D70046773C /* FAQ5.swift in Sources */,
 				5F9AD08A22AFD0220046773C /* MahaRudraPuja.swift in Sources */,
