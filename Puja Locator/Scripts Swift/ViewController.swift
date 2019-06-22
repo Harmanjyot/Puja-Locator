@@ -140,7 +140,37 @@ class ViewController: UIViewController {
             defaults.set(textcity, forKey: "textcity")
             defaults.set(userSetToiPhone, forKey: "userSetToiPhone")
             
-            let url = NSURL(string: "http://localhost/Puja Locator/register.php")
+            let url = URL(string: "http://localhost/Puja%20Locator/register.php")
+            var request = URLRequest(url: url!)
+            print(url)
+            request.httpMethod = "POST"
+            let body = "name=\(textname!)&emailID=\(textemail!)&phoneNo=\(textmobile!)&city=\(textcity!)"
+            request.httpBody = body.data(using: String.Encoding.utf8)
+            
+            URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
+                if error == nil {
+                    DispatchQueue.main.async {
+                        do {
+                            let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? NSDictionary
+                            
+                            guard let parseJSON = json else {
+                                print("error while parsing")
+                                return
+                            }
+                            
+                            let id = parseJSON["id"]
+                            if id != nil {
+                                print(parseJSON)
+                            }
+                            
+                        } catch {
+                            print("Caught error:\(error)")
+                        }
+                    }
+                } else{
+                    print("error:\(error)")
+                }
+            }).resume()
             
             performSegue(withIdentifier: "toMainPage", sender: nil)
             }
