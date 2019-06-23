@@ -21,6 +21,8 @@ class Main_Page: UIViewController {
     //INITIALIZING VALIABLES
     let defaults = UserDefaults.standard
     var langMain: Int!
+    var EmailID: String!
+    var PhoneNo: String!
     @IBOutlet weak var topHead: UILabel!
     @IBOutlet weak var stripLbl: UILabel!
     @IBOutlet weak var quizLbl: UIButton!
@@ -49,6 +51,13 @@ class Main_Page: UIViewController {
             guard let langset = segue.destination as? FAQs else{return}
             langset.langSettings = langMain
         }
+        else if segue.identifier == "toQuizPage" {
+            guard let quizPage = segue.destination as? quizMainPage else { return }
+            quizPage.langSettings = langMain
+            quizPage.EmailID = EmailID
+            quizPage.PhoneNo = PhoneNo
+        }
+            
         else if segue.identifier == "t1" {
             guard let langset = segue.destination as? RudraPuja else{return}
             langset.langSettings = langMain

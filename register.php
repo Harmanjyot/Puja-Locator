@@ -21,8 +21,9 @@ else {
 	else {
 		echo "Some error occured!".$mysqlQuery."<br>".$conn->error;
 	}
-	
 }
-$conn->close();
+
+
+	$conn->close();
 
  ?>

@@ -171,10 +171,19 @@ class ViewController: UIViewController {
                     print("error:\(error)")
                 }
             }).resume()
-            
+         
             performSegue(withIdentifier: "toMainPage", sender: nil)
             }
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toMainPage"{
+            guard let mainpage = segue.destination as? Main_Page else {return}
+            mainpage.EmailID = EmailID.text
+            mainpage.PhoneNo = mobiNum.text
+            
+        }
+    }
         
     }
     

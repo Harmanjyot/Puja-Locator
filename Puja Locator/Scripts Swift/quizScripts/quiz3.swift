@@ -10,38 +10,108 @@ import UIKit
 
 class quiz3: UIViewController {
 
+    var PhoneNo: String!
+    var EmailID: String!
+    var score: Int!
+    var langsetquiz: Int!
+    var langquiz3: Int!
+    
     @IBOutlet weak var b1: UIButton!
     @IBOutlet weak var b2: UIButton!
     @IBOutlet weak var b3: UIButton!
     @IBOutlet weak var b4: UIButton!
     
+    @IBOutlet weak var timeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        langquiz3 = langsetquiz
+        langSet(langFAQ: langquiz3)
+
 
         // Do any additional setup after loading the view.
     }
     
+    var seconds = 60
+    var timer: Timer?
+    override func viewDidAppear(_ animated: Bool) {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.counter), userInfo: nil, repeats: true)
+        
+    }
+    
+    @objc func counter() {
+        seconds = seconds - 1
+        timeLabel.text = String(seconds)
+        if seconds == 0 {
+            if timer != nil {
+                timer?.invalidate()
+                timer = nil
+                self.button1((Any).self)
+            }
+        }
+    }
+    
+ 
+    func langSet(langFAQ: Int) {
+        if (langFAQ == 0){
+            changeLang(strLan: "en")
+        }
+        else if (langFAQ == 1) {
+            changeLang(strLan: "hi")
+        }
+        else {
+            changeLang(strLan: "mr-IN")
+        }
+    }
+    
+    func changeLang(strLan: String) {
+        b1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
+        b2.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
+        b3.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
+        b4.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
+        
+    }
+    
+    
     @IBAction func button1(_ sender: Any) {
         b1.backgroundColor = UIColor.red
         b3.backgroundColor = UIColor.green
+        score=0
         performSegue(withIdentifier: "quiz3Segue", sender: nil)
+        
     }
     
     @IBAction func button2(_ sender: Any) {
         b2.backgroundColor = UIColor.red
         b3.backgroundColor = UIColor.green
+        score = 0
         performSegue(withIdentifier: "quiz3Segue", sender: nil)
+        
     }
     @IBAction func button3(_ sender: Any) {
         b3.backgroundColor = UIColor.green
+        score = 100 + seconds
         performSegue(withIdentifier: "quiz3Segue", sender: nil)
+        
     }
     
     @IBAction func button4(_ sender: Any) {
         b4.backgroundColor = UIColor.red
         b3.backgroundColor = UIColor.green
+        score = 0
         performSegue(withIdentifier: "quiz3Segue", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "quiz3Segue"{
+            guard let langquiz = segue.destination as? quiz4 else {return}
+            langquiz.langsetquiz = langquiz3
+            langquiz.PhoneNo = PhoneNo
+            langquiz.EmailID = EmailID
+            langquiz.score = score
+        }
+        
     }
     
 }

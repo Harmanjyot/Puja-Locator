@@ -55,6 +55,10 @@
 		5FAFCDC022BEA2C4003BC78D /* quiz8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */; };
 		5FAFCDC222BEA2D2003BC78D /* quiz9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDC122BEA2D2003BC78D /* quiz9.swift */; };
 		5FAFCDC422BEA2E2003BC78D /* quiz10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFCDC322BEA2E2003BC78D /* quiz10.swift */; };
+		5FCA2FA122BF542100D1D162 /* endQuiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA022BF542100D1D162 /* endQuiz1.swift */; };
+		5FCA2FA322BF543400D1D162 /* endQuiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA222BF543400D1D162 /* endQuiz2.swift */; };
+		5FCA2FA522BF545000D1D162 /* endQuiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA422BF545000D1D162 /* endQuiz3.swift */; };
+		5FCA2FA722BF546300D1D162 /* endQuiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA622BF546300D1D162 /* endQuiz4.swift */; };
 		5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */; };
 		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
 /* End PBXBuildFile section */
@@ -92,9 +96,6 @@
 		5F3AD8FE22AAC73D00796BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F4216B022AEC64A0089E365 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5F427D1C22AF8224008B222F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		5F427D3122AF931D008B222F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		5F427D3322AF9325008B222F /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Main.strings"; sourceTree = "<group>"; };
-		5F427D3522AF9330008B222F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
 		5F659AD322ABC68F00EDDEA5 /* FAQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQs.swift; sourceTree = "<group>"; };
 		5F9AD06C22AFC25D0046773C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5F9AD06E22AFC25F0046773C /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -139,6 +140,13 @@
 		5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz8.swift; sourceTree = "<group>"; };
 		5FAFCDC122BEA2D2003BC78D /* quiz9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz9.swift; sourceTree = "<group>"; };
 		5FAFCDC322BEA2E2003BC78D /* quiz10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz10.swift; sourceTree = "<group>"; };
+		5FCA2FA022BF542100D1D162 /* endQuiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz1.swift; sourceTree = "<group>"; };
+		5FCA2FA222BF543400D1D162 /* endQuiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz2.swift; sourceTree = "<group>"; };
+		5FCA2FA422BF545000D1D162 /* endQuiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz3.swift; sourceTree = "<group>"; };
+		5FCA2FA622BF546300D1D162 /* endQuiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz4.swift; sourceTree = "<group>"; };
+		5FCA2FA922BFBEFE00D1D162 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5FCA2FAB22BFBF4300D1D162 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		5FCA2FAD22BFBF7700D1D162 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
 		5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizMainPage.swift; sourceTree = "<group>"; };
 		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -280,6 +288,7 @@
 		5FAFCDB022BEA01C003BC78D /* quizScripts */ = {
 			isa = PBXGroup;
 			children = (
+				5FCA2FA222BF543400D1D162 /* endQuiz2.swift */,
 				5FAFCDB122BEA234003BC78D /* quiz1.swift */,
 				5FAFCDB322BEA258003BC78D /* quiz2.swift */,
 				5FAFCDB522BEA272003BC78D /* quiz3.swift */,
@@ -290,6 +299,9 @@
 				5FAFCDBF22BEA2C4003BC78D /* quiz8.swift */,
 				5FAFCDC122BEA2D2003BC78D /* quiz9.swift */,
 				5FAFCDC322BEA2E2003BC78D /* quiz10.swift */,
+				5FCA2FA022BF542100D1D162 /* endQuiz1.swift */,
+				5FCA2FA422BF545000D1D162 /* endQuiz3.swift */,
+				5FCA2FA622BF546300D1D162 /* endQuiz4.swift */,
 			);
 			path = quizScripts;
 			sourceTree = "<group>";
@@ -436,6 +448,7 @@
 				5F3AD8DF22AAC72E00796BD9 /* ViewController.swift in Sources */,
 				5F9AD0B122B004BF0046773C /* FAQ7.swift in Sources */,
 				5F3AD8DD22AAC72E00796BD9 /* AppDelegate.swift in Sources */,
+				5FCA2FA122BF542100D1D162 /* endQuiz1.swift in Sources */,
 				5F9AD0B322B004D30046773C /* FAQ8.swift in Sources */,
 				5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */,
 				5F9AD08C22AFD05C0046773C /* NavagrahaHoma.swift in Sources */,
@@ -444,6 +457,7 @@
 				5FAFCDBC22BEA2A0003BC78D /* quiz6.swift in Sources */,
 				5FAFCDBA22BEA291003BC78D /* quiz5.swift in Sources */,
 				5F9AD08022AFCDBD0046773C /* VidyarambhamSanskar.swift in Sources */,
+				5FCA2FA522BF545000D1D162 /* endQuiz3.swift in Sources */,
 				5FAFCDB422BEA258003BC78D /* quiz2.swift in Sources */,
 				5F9AD08222AFCEAE0046773C /* ChandiHoma.swift in Sources */,
 				5F9AD0AF22B004A00046773C /* FAQ6.swift in Sources */,
@@ -455,6 +469,7 @@
 				5F9AD07822AFCC380046773C /* GaneshHoma.swift in Sources */,
 				5F9AD09022AFD0DA0046773C /* VaastuShantiHoma.swift in Sources */,
 				5F9AD07422AFCBB90046773C /* DakshinamurtiPuja.swift in Sources */,
+				5FCA2FA722BF546300D1D162 /* endQuiz4.swift in Sources */,
 				5F9AD07E22AFCD7F0046773C /* DhanvantariHoma.swift in Sources */,
 				5F9AD0B522B004EA0046773C /* FAQ9.swift in Sources */,
 				5FAFCDB222BEA234003BC78D /* quiz1.swift in Sources */,
@@ -466,6 +481,7 @@
 				5FAFCDB822BEA281003BC78D /* quiz4.swift in Sources */,
 				5F9AD08422AFCEEA0046773C /* MahaGanapati.swift in Sources */,
 				5F9AD08E22AFD0970046773C /* SudharshanHoma.swift in Sources */,
+				5FCA2FA322BF543400D1D162 /* endQuiz2.swift in Sources */,
 				5FAFCDBE22BEA2B2003BC78D /* quiz7.swift in Sources */,
 				5FAFCDC022BEA2C4003BC78D /* quiz8.swift in Sources */,
 				5F9AD08622AFCF210046773C /* KalashSthapana.swift in Sources */,
@@ -511,9 +527,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F3AD8E122AAC72E00796BD9 /* Base */,
-				5F427D3122AF931D008B222F /* en */,
-				5F427D3322AF9325008B222F /* mr-IN */,
-				5F427D3522AF9330008B222F /* hi */,
+				5FCA2FA922BFBEFE00D1D162 /* en */,
+				5FCA2FAB22BFBF4300D1D162 /* mr-IN */,
+				5FCA2FAD22BFBF7700D1D162 /* hi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
