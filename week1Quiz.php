@@ -11,7 +11,7 @@
 	$uid = (int)$row['userID'];
 
 
-	$mysqlQuery = "INSERT INTO quizDetails (userID, week1Score, week2Score, week3Score, week4Score, totalScore) VALUES ('$uid', '$week1Score', '0', '0', '0', '$week1Score')";
+	$mysqlQuery = "INSERT INTO quizDetails (userID, week1Score, week1Time, week2Score, week2Time, week3Score, week3Time, week4Score, week4Time, totalScore) VALUES ('$uid', '$week1Score',now(), '0', null , '0', null ,'0', null, '$week1Score')";
 	if ($conn->query($mysqlQuery) === TRUE) {
 		echo "Week 1 successfull";
 	}

@@ -12,7 +12,7 @@
 	$uid = (int)$row['userID'];
 
 
-	$mysqlQuery = "UPDATE quizDetails SET week2Score = '$week2Score', totalScore = week1Score + '$week2Score' WHERE userID = '$uid'";
+	$mysqlQuery = "UPDATE quizDetails SET week2Score = '$week2Score', totalScore = week1Score + '$week2Score', week2Time = now() WHERE userID = '$uid'";
 	if ($conn->query($mysqlQuery) === TRUE) {
 		echo "Altered for Week 2";
 	}
