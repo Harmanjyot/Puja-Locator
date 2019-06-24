@@ -8,23 +8,14 @@
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "129-ax-3Xh"; */
 "129-ax-3Xh.text" = "FAQs";
 
-/* Class = "UIButton"; normalTitle = "Belpatra"; ObjectID = "1v7-Ga-oDP"; */
-"1v7-Ga-oDP.normalTitle" = "Belpatra";
-
 /* Class = "UILabel"; text = "Q: How can I book a personal Rudra puja?"; ObjectID = "2Ar-Sv-Oze"; */
 "2Ar-Sv-Oze.text" = "Q: How can I book a personal Rudra puja?";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "2DE-Ip-R6T"; */
 "2DE-Ip-R6T.text" = "Coming Soon!";
 
-/* Class = "UIButton"; normalTitle = "Trimurti"; ObjectID = "2Ni-Mr-GG6"; */
-"2Ni-Mr-GG6.normalTitle" = "Trimurti";
-
 /* Class = "UILabel"; text = "Thank you for participating!"; ObjectID = "2jg-Yh-WwR"; */
 "2jg-Yh-WwR.text" = "Thank you for participating!";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3Gg-jI-RdT"; */
-"3Gg-jI-RdT.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Q: What are the benefits of Sankalp?"; ObjectID = "3Vg-18-KvD"; */
 "3Vg-18-KvD.text" = "Q: What are the benefits of Sankalp?";
@@ -44,8 +35,11 @@
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "50f-1S-2jw"; */
 "50f-1S-2jw.text" = "Coming Soon!";
 
-/* Class = "UIButton"; normalTitle = "Bhagavad Gita"; ObjectID = "6Lh-VK-blN"; */
-"6Lh-VK-blN.normalTitle" = "Bhagavad Gita";
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "5bP-Pt-1BK"; */
+"5bP-Pt-1BK.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Trimurti"; ObjectID = "5px-sE-iLb"; */
+"5px-sE-iLb.normalTitle" = "Trimurti";
 
 /* Class = "UILabel"; text = "Shravan falls in which month of the Hindu calendar?"; ObjectID = "6W8-Qk-a0b"; */
 "6W8-Qk-a0b.text" = "Shravan falls in which month of the Hindu calendar?";
@@ -56,6 +50,15 @@
 /* Class = "UILabel"; text = "60"; ObjectID = "6vT-hL-Kzr"; */
 "6vT-hL-Kzr.text" = "60";
 
+/* Class = "UIButton"; normalTitle = "Sarin"; ObjectID = "7J4-cV-p8X"; */
+"7J4-cV-p8X.normalTitle" = "Sarin";
+
+/* Class = "UIButton"; normalTitle = "Krishna Janmashtami"; ObjectID = "7eX-cP-Ngg"; */
+"7eX-cP-Ngg.normalTitle" = "Krishna Janmashtami";
+
+/* Class = "UIButton"; normalTitle = "Monday"; ObjectID = "7ex-2P-g2x"; */
+"7ex-2P-g2x.normalTitle" = "Monday";
+
 /* Class = "UILabel"; text = "A: The word 'Panchamrita' is a combination of two words - 'Pancha' and 'Amrita'. 'Pancha' means five and 'Amrita' means nectar of the Gods. It is a sacred mixture of five ingredients i.e. milk, curd, honey, jaggery and ghee. Though jaggery is needed, nowadays sugar is being used instead. The five Devas (deities) reside in these five ingredients. Savitru resides in sugar, Vishwedeva in honey, Surya in ghee, Vayu in curd and Soma in milk. So when you offer them as Abhisheka, the intention is that may the divine qualities of these Devas blossom in our lives. "; ObjectID = "7gz-hH-dyb"; */
 "7gz-hH-dyb.text" = "A: The word 'Panchamrita' is a combination of two words - 'Pancha' and 'Amrita'. 'Pancha' means five and 'Amrita' means nectar of the Gods. It is a sacred mixture of five ingredients i.e. milk, curd, honey, jaggery and ghee. Though jaggery is needed, nowadays sugar is being used instead. The five Devas (deities) reside in these five ingredients. Savitru resides in sugar, Vishwedeva in honey, Surya in ghee, Vayu in curd and Soma in milk. So when you offer them as Abhisheka, the intention is that may the divine qualities of these Devas blossom in our lives. ";
 
@@ -65,8 +68,17 @@
 /* Class = "UILabel"; text = "Q: How is Rudrapuja performed?"; ObjectID = "8Kl-C3-2JV"; */
 "8Kl-C3-2JV.text" = "Q: How is Rudrapuja performed?";
 
+/* Class = "UILabel"; text = "What was the poison that Shiva drank to save the world which was produced by the ocean called?"; ObjectID = "8Z8-ZK-XH6"; */
+"8Z8-ZK-XH6.text" = "What was the poison that Shiva drank to save the world which was produced by the ocean called?";
+
+/* Class = "UIButton"; normalTitle = "Halahala"; ObjectID = "8Zj-EW-Fk8"; */
+"8Zj-EW-Fk8.normalTitle" = "Halahala";
+
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8q5-Ja-BOF"; */
-"8q5-Ja-BOF.normalTitle" = "Button";
+"8q5-Ja-BOF.normalTitle" = "Amarnath Cave";
+
+/* Class = "UIButton"; normalTitle = "Cyanide"; ObjectID = "8sC-7M-TJU"; */
+"8sC-7M-TJU.normalTitle" = "Cyanide";
 
 /* Class = "UIButton"; normalTitle = "Q:  What is Rudrapuja?"; ObjectID = "9zI-yv-W9c"; */
 "9zI-yv-W9c.normalTitle" = "Q:  What is Rudrapuja?";
@@ -74,29 +86,17 @@
 /* Class = "UILabel"; text = "08 July"; ObjectID = "A1n-C5-cSG"; */
 "A1n-C5-cSG.text" = "08 July";
 
-/* Class = "UILabel"; text = "60"; ObjectID = "B7J-qI-fmh"; */
-"B7J-qI-fmh.text" = "60";
-
 /* Class = "UIButton"; normalTitle = "Q: Why is Rudrapuja performed or what is its significance?"; ObjectID = "B7h-Qa-IWe"; */
 "B7h-Qa-IWe.normalTitle" = "Q: Why is Rudrapuja performed or what is its significance?";
 
 /* Class = "UILabel"; text = "22 July"; ObjectID = "Bh2-AT-8Ur"; */
 "Bh2-AT-8Ur.text" = "22 July";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Blh-tt-4WU"; */
-"Blh-tt-4WU.normalTitle" = "Button";
-
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "Byb-Hq-siM"; */
 "Byb-Hq-siM.text" = "FAQs";
 
 /* Class = "UIButton"; normalTitle = "       Play"; ObjectID = "C29-eq-cqS"; */
 "C29-eq-cqS.normalTitle" = "       Play";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CBn-dS-xTp"; */
-"CBn-dS-xTp.normalTitle" = "Button";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CIv-lc-07d"; */
-"CIv-lc-07d.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Settings"; ObjectID = "CTH-pf-r2H"; */
 "CTH-pf-r2H.text" = "Settings";
@@ -109,6 +109,9 @@
 
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "E1K-m7-1Hm"; */
 "E1K-m7-1Hm.text" = "FAQs";
+
+/* Class = "UILabel"; text = "Shiva is the destroyer of evil and the transformer within the...?"; ObjectID = "E7F-EJ-c2Z"; */
+"E7F-EJ-c2Z.text" = "Shiva is the destroyer of evil and the transformer within the...?";
 
 /* Class = "UILabel"; text = "Next Quiz: 22th July"; ObjectID = "EDI-Aa-pF5"; */
 "EDI-Aa-pF5.text" = "Next Quiz: 22th July";
@@ -125,20 +128,23 @@
 /* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "FvT-gO-4cj"; */
 "FvT-gO-4cj.placeholder" = "Enter Email ID";
 
+/* Class = "UIButton"; normalTitle = "Coconut"; ObjectID = "H0B-YV-37X"; */
+"H0B-YV-37X.normalTitle" = "Coconut";
+
 /* Class = "UILabel"; text = "A: You can contact the Vaidic Dharma Sansthan co-ordinator of your area of write to us at aol.vds@gmail.com"; ObjectID = "HEt-g6-BSA"; */
 "HEt-g6-BSA.text" = "A: You can contact the Vaidic Dharma Sansthan co-ordinator of your area of write to us at aol.vds@gmail.com";
 
 /* Class = "UILabel"; text = "Chanting"; ObjectID = "HGh-8M-4dv"; */
 "HGh-8M-4dv.text" = "Chanting";
 
-/* Class = "UIButton"; normalTitle = "Rakshabandhan"; ObjectID = "Hkl-SY-ft8"; */
-"Hkl-SY-ft8.normalTitle" = "Rakshabandhan";
+/* Class = "UIButton"; normalTitle = "Cactus"; ObjectID = "Hly-4w-bUn"; */
+"Hly-4w-bUn.normalTitle" = "Cactus";
+
+/* Class = "UIButton"; normalTitle = "Belpatra"; ObjectID = "Hz2-fo-A4q"; */
+"Hz2-fo-A4q.normalTitle" = "Belpatra";
 
 /* Class = "UILabel"; text = "15 July"; ObjectID = "I8f-BY-cRE"; */
 "I8f-BY-cRE.text" = "15 July";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ION-JJ-v1r"; */
-"ION-JJ-v1r.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "IQV-H6-EWM"; */
 "IQV-H6-EWM.text" = "Coming Soon!";
@@ -146,11 +152,8 @@
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "IYt-FR-3o9"; */
 "IYt-FR-3o9.text" = "FAQs";
 
-/* Class = "UIButton"; normalTitle = "Madhu Shravan"; ObjectID = "It8-Nj-LYP"; */
-"It8-Nj-LYP.normalTitle" = "Madhu Shravan";
-
-/* Class = "UILabel"; text = "60"; ObjectID = "JTq-un-c1s"; */
-"JTq-un-c1s.text" = "60";
+/* Class = "UIButton"; normalTitle = "Water Melon"; ObjectID = "JBS-oH-VvJ"; */
+"JBS-oH-VvJ.normalTitle" = "Water Melon";
 
 /* Class = "UIButton"; normalTitle = "       Play"; ObjectID = "JgB-DW-AUF"; */
 "JgB-DW-AUF.normalTitle" = "       Play";
@@ -161,17 +164,8 @@
 /* Class = "UILabel"; text = "Thank you for participating!"; ObjectID = "Jvn-iL-b3f"; */
 "Jvn-iL-b3f.text" = "Thank you for participating!";
 
-/* Class = "UILabel"; text = "60"; ObjectID = "Jyh-pe-aKX"; */
-"Jyh-pe-aKX.text" = "60";
-
-/* Class = "UILabel"; text = "On which festival does the Shravan end?"; ObjectID = "K7O-iA-yG8"; */
-"K7O-iA-yG8.text" = "On which festival does the Shravan end?";
-
 /* Class = "UILabel"; text = "Next Quiz: 15th July"; ObjectID = "KmY-0w-HON"; */
 "KmY-0w-HON.text" = "Next Quiz: 15th July";
-
-/* Class = "UILabel"; text = "Shiva is the destroyer of evil and the transformer within the...?"; ObjectID = "KnH-CP-ydB"; */
-"KnH-CP-ydB.text" = "Shiva is the destroyer of evil and the transformer within the...?";
 
 /* Class = "UIButton"; normalTitle = "Kailash"; ObjectID = "KpM-Bh-0ow"; */
 "KpM-Bh-0ow.normalTitle" = "Kailash";
@@ -180,7 +174,7 @@
 "LCG-eN-oEg.placeholder" = "Enter Mobile Number";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Mau-kz-Z7R"; */
-"Mau-kz-Z7R.normalTitle" = "Button";
+"Mau-kz-Z7R.normalTitle" = "Sumeru";
 
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "Mdm-OF-Abc"; */
 "Mdm-OF-Abc.text" = "FAQs";
@@ -209,14 +203,14 @@
 /* Class = "UILabel"; text = "Sri Mahalaxmi Homa"; ObjectID = "OZF-2a-c0n"; */
 "OZF-2a-c0n.text" = "Sri Mahalaxmi Homa";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PR7-Ym-cP8"; */
-"PR7-Ym-cP8.normalTitle" = "Button";
-
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "Pac-vg-CCu"; */
 "Pac-vg-CCu.text" = "Coming Soon!";
 
-/* Class = "UILabel"; text = "It has three eyes, but is no Shiva; it lives on top of a tree, but it is no bird; it is full of water, but it is no a pot."; ObjectID = "QpO-Zg-Rga"; */
-"QpO-Zg-Rga.text" = "It has three eyes, but is no Shiva; it lives on top of a tree, but it is no bird; it is full of water, but it is no a pot.";
+/* Class = "UILabel"; text = "Fasting on which day during the whole Shravan maas ensures prosperity?"; ObjectID = "Py6-8J-Ieo"; */
+"Py6-8J-Ieo.text" = "Fasting on which day during the whole Shravan maas ensures prosperity?";
+
+/* Class = "UIButton"; normalTitle = "Haryali Teej"; ObjectID = "Qcm-GL-Lp2"; */
+"Qcm-GL-Lp2.normalTitle" = "Haryali Teej";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "RVu-ZF-EdF"; */
 "RVu-ZF-EdF.text" = "Coming Soon!";
@@ -233,26 +227,20 @@
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "THJ-AK-CaC"; */
 "THJ-AK-CaC.text" = "FAQs";
 
-/* Class = "UIButton"; normalTitle = "Indian"; ObjectID = "TLI-Pd-PiL"; */
-"TLI-Pd-PiL.normalTitle" = "Indian";
-
-/* Class = "UILabel"; text = "60"; ObjectID = "UPc-Lf-z0J"; */
-"UPc-Lf-z0J.text" = "60";
-
 /* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "UaA-Bv-qVR"; */
 "UaA-Bv-qVR.normalTitle" = "SUBMIT";
 
 /* Class = "UIButton"; normalTitle = "Q:  What are the benefits of Sankalp?"; ObjectID = "Uga-wE-z27"; */
 "Uga-wE-z27.normalTitle" = "Q:  What are the benefits of Sankalp?";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Uhx-qM-mNd"; */
-"Uhx-qM-mNd.normalTitle" = "Button";
-
-/* Class = "UILabel"; text = "Fasting on which day during the whole Shravan maas ensures prosperity?"; ObjectID = "VAv-Kx-kSm"; */
-"VAv-Kx-kSm.text" = "Fasting on which day during the whole Shravan maas ensures prosperity?";
+/* Class = "UIButton"; normalTitle = "Goa"; ObjectID = "Ugr-MY-ZWI"; */
+"Ugr-MY-ZWI.normalTitle" = "Goa";
 
 /* Class = "UIButton"; normalTitle = "Fourth"; ObjectID = "VTP-uf-Frp"; */
 "VTP-uf-Frp.normalTitle" = "Fourth";
+
+/* Class = "UIButton"; normalTitle = "Arsenic"; ObjectID = "Vah-tK-Ntn"; */
+"Vah-tK-Ntn.normalTitle" = "Arsenic";
 
 /* Class = "UIButton"; normalTitle = "Mahadev"; ObjectID = "VhS-l7-MST"; */
 "VhS-l7-MST.normalTitle" = "Mahadev";
@@ -263,9 +251,6 @@
 /* Class = "UILabel"; text = "Q: What is Sankalp?"; ObjectID = "WMu-sd-Oo5"; */
 "WMu-sd-Oo5.text" = "Q: What is Sankalp?";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "X2Q-Eb-Zcq"; */
-"X2Q-Eb-Zcq.normalTitle" = "Button";
-
 /* Class = "UIButton"; normalTitle = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?"; ObjectID = "X39-2M-lWx"; */
 "X39-2M-lWx.normalTitle" = "Q:  Why is Rudrapuja performed during Shraavan Mass (month)?";
 
@@ -275,17 +260,17 @@
 /* Class = "UILabel"; text = "Quiz"; ObjectID = "Xi9-X8-iv1"; */
 "Xi9-X8-iv1.text" = "Quiz";
 
-/* Class = "UIButton"; normalTitle = "Goa"; ObjectID = "Xzu-cT-xeW"; */
-"Xzu-cT-xeW.normalTitle" = "Goa";
-
-/* Class = "UILabel"; text = "60"; ObjectID = "Y7B-Fz-aC8"; */
-"Y7B-Fz-aC8.text" = "60";
+/* Class = "UIButton"; normalTitle = "Bhagavad Gita"; ObjectID = "XwD-SN-reb"; */
+"XwD-SN-reb.normalTitle" = "Bhagavad Gita";
 
 /* Class = "UILabel"; text = "Date:"; ObjectID = "YCV-hN-4zU"; */
 "YCV-hN-4zU.text" = "Date:";
 
 /* Class = "UIButton"; normalTitle = "Ardanarishwara"; ObjectID = "YlM-vS-0bA"; */
 "YlM-vS-0bA.normalTitle" = "Ardanarishwara";
+
+/* Class = "UIButton"; normalTitle = "Sunday"; ObjectID = "ZUw-Nx-cqc"; */
+"ZUw-Nx-cqc.normalTitle" = "Sunday";
 
 /* Class = "UILabel"; text = "Navagraha Homa"; ObjectID = "a4j-PG-J3z"; */
 "a4j-PG-J3z.text" = "Navagraha Homa";
@@ -296,11 +281,8 @@
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "aEY-n7-mZE"; */
 "aEY-n7-mZE.text" = "Coming Soon!";
 
-/* Class = "UIButton"; normalTitle = "Krishna Janmashtami"; ObjectID = "aqb-C2-eEP"; */
-"aqb-C2-eEP.normalTitle" = "Krishna Janmashtami";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "auC-He-6zc"; */
-"auC-He-6zc.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Neem"; ObjectID = "aKe-Qb-oAH"; */
+"aKe-Qb-oAH.normalTitle" = "Neem";
 
 /* Class = "UIButton"; normalTitle = "मराठी"; ObjectID = "b0x-Fx-UMB"; */
 "b0x-Fx-UMB.normalTitle" = "मराठी";
@@ -311,8 +293,8 @@
 /* Class = "UIButton"; normalTitle = "       Play"; ObjectID = "bKm-sp-GX1"; */
 "bKm-sp-GX1.normalTitle" = "       Play";
 
-/* Class = "UIButton"; normalTitle = "Coconut"; ObjectID = "c6y-4l-ddL"; */
-"c6y-4l-ddL.normalTitle" = "Coconut";
+/* Class = "UIButton"; normalTitle = "Indian"; ObjectID = "bhv-pp-Lpa"; */
+"bhv-pp-Lpa.normalTitle" = "Indian";
 
 /* Class = "UILabel"; text = "Time:"; ObjectID = "cS7-yV-KtM"; */
 "cS7-yV-KtM.text" = "Time:";
@@ -335,11 +317,17 @@
 /* Class = "UILabel"; text = "Week 4:"; ObjectID = "e5T-vu-5uC"; */
 "e5T-vu-5uC.text" = "Week 4:";
 
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "eLc-b8-EFq"; */
+"eLc-b8-EFq.normalTitle" = "Done";
+
 /* Class = "UILabel"; text = "Sri Sudarshan Homa"; ObjectID = "eXW-pm-nQf"; */
 "eXW-pm-nQf.text" = "Sri Sudarshan Homa";
 
 /* Class = "UIButton"; normalTitle = "       Play"; ObjectID = "eq8-aX-opi"; */
 "eq8-aX-opi.normalTitle" = "       Play";
+
+/* Class = "UILabel"; text = "Which leaf is the most used in Shravan to offer Shiv Lingam?"; ObjectID = "fNa-lk-Z3E"; */
+"fNa-lk-Z3E.text" = "Which leaf is the most used in Shravan to offer Shiv Lingam?";
 
 /* Class = "UILabel"; text = "Please enter your details below for a one time registration process"; ObjectID = "fUu-rn-6v0"; */
 "fUu-rn-6v0.text" = "Please enter your details below for a one time registration process";
@@ -353,14 +341,17 @@
 /* Class = "UILabel"; text = "A: You can write to us at: aol.vds@gmail.com "; ObjectID = "fvO-Q5-2aR"; */
 "fvO-Q5-2aR.text" = "A: You can write to us at: aol.vds@gmail.com ";
 
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "gIh-nF-V9s"; */
+"gIh-nF-V9s.normalTitle" = "Done";
+
 /* Class = "UILabel"; text = "Thank you for participating!"; ObjectID = "gSj-dW-yum"; */
 "gSj-dW-yum.text" = "Thank you for participating!";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "gW2-Sa-TZL"; */
 "gW2-Sa-TZL.text" = "Coming Soon!";
 
-/* Class = "UIButton"; normalTitle = "Haryali Teej"; ObjectID = "gfZ-x8-hXq"; */
-"gfZ-x8-hXq.normalTitle" = "Haryali Teej";
+/* Class = "UILabel"; text = "It has three eyes, but is no Shiva; it lives on top of a tree, but it is no bird; it is full of water, but it is no a pot."; ObjectID = "hE8-Ta-mis"; */
+"hE8-Ta-mis.text" = "It has three eyes, but is no Shiva; it lives on top of a tree, but it is no bird; it is full of water, but it is no a pot.";
 
 /* Class = "UILabel"; text = "Sri Maha Rudra Puja"; ObjectID = "hFV-fM-IkQ"; */
 "hFV-fM-IkQ.text" = "Sri Maha Rudra Puja";
@@ -374,11 +365,8 @@
 /* Class = "UILabel"; text = "Q: How can I book/offer my Sankalp for Rudrapuja?"; ObjectID = "hVw-WG-2JL"; */
 "hVw-WG-2JL.text" = "Q: How can I book/offer my Sankalp for Rudrapuja?";
 
-/* Class = "UIButton"; normalTitle = "Halahala"; ObjectID = "hWo-Ct-KyV"; */
-"hWo-Ct-KyV.normalTitle" = "Halahala";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hZs-iV-Ese"; */
-"hZs-iV-Ese.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Haridwar"; ObjectID = "hZs-iV-Ese"; */
+"hZs-iV-Ese.normalTitle" = "Haridwar";
 
 /* Class = "UILabel"; text = "Upanayan"; ObjectID = "hzO-jy-8pq"; */
 "hzO-jy-8pq.text" = "Upanayan";
@@ -407,9 +395,6 @@
 /* Class = "UILabel"; text = "Samuhik Pujas"; ObjectID = "jnr-r7-Cz6"; */
 "jnr-r7-Cz6.text" = "Samuhik Pujas";
 
-/* Class = "UILabel"; text = "60"; ObjectID = "jte-S4-2MY"; */
-"jte-S4-2MY.text" = "60";
-
 /* Class = "UILabel"; text = "Sri Maha Ganapati"; ObjectID = "jtv-zQ-VXx"; */
 "jtv-zQ-VXx.text" = "Sri Maha Ganapati";
 
@@ -434,14 +419,17 @@
 /* Class = "UILabel"; text = "Rudra Puja"; ObjectID = "lOt-rP-LlO"; */
 "lOt-rP-LlO.text" = "Rudra Puja";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lP5-Uc-ZKg"; */
-"lP5-Uc-ZKg.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Harman"; ObjectID = "lP5-Uc-ZKg"; */
+"lP5-Uc-ZKg.normalTitle" = "Harman";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "mDb-cI-8sr"; */
 "mDb-cI-8sr.text" = "Coming Soon!";
 
 /* Class = "UILabel"; text = "Durga Homa"; ObjectID = "mLf-89-IUg"; */
 "mLf-89-IUg.text" = "Durga Homa";
+
+/* Class = "UIButton"; normalTitle = "Lemon"; ObjectID = "mOz-t9-1IR"; */
+"mOz-t9-1IR.normalTitle" = "Lemon";
 
 /* Class = "UILabel"; text = "Date:"; ObjectID = "mT2-qr-mfr"; */
 "mT2-qr-mfr.text" = "Date:";
@@ -458,6 +446,9 @@
 /* Class = "UILabel"; text = "Sri Chandi Homa"; ObjectID = "nG3-7s-dPD"; */
 "nG3-7s-dPD.text" = "Sri Chandi Homa";
 
+/* Class = "UIButton"; normalTitle = "Tulsi"; ObjectID = "nsJ-w8-loa"; */
+"nsJ-w8-loa.normalTitle" = "Tulsi";
+
 /* Class = "UILabel"; text = "A: This world is a play of both positive and negative energies. During Rudrapuja, when we pray to Shiva - The Lord of Transformation; the entire negative energy which is present around us in form of disease, depression and unhappiness gets transformed positively into peace, prosperity and joy. We are then surrounded by peace in the body, mind and soul. The nature too flourishes and becomes rejoicefull. In India, Rudrapuja is being practised since time immemorial. The ancient holy scriptures such as Vedas consider it to be as one of the greatest pujas for removal of all evils, for fulfilment of all desires and for prosperity. Even the astrological scriptures prescribe Rudrapuja as a remedy for several dosas."; ObjectID = "o6o-RQ-ABG"; */
 "o6o-RQ-ABG.text" = "A: This world is a play of both positive and negative energies. During Rudrapuja, when we pray to Shiva - The Lord of Transformation; the entire negative energy which is present around us in form of disease, depression and unhappiness gets transformed positively into peace, prosperity and joy. We are then surrounded by peace in the body, mind and soul. The nature too flourishes and becomes rejoicefull. In India, Rudrapuja is being practised since time immemorial. The ancient holy scriptures such as Vedas consider it to be as one of the greatest pujas for removal of all evils, for fulfilment of all desires and for prosperity. Even the astrological scriptures prescribe Rudrapuja as a remedy for several dosas.";
 
@@ -466,9 +457,6 @@
 
 /* Class = "UILabel"; text = "Q: Can people who have not yet done any Art of Living course attend Rudrapuja and/or offer Sankalp?"; ObjectID = "pfk-ay-oVb"; */
 "pfk-ay-oVb.text" = "Q: Can people who have not yet done any Art of Living course attend Rudrapuja and/or offer Sankalp?";
-
-/* Class = "UIButton"; normalTitle = "Monday"; ObjectID = "pi6-cq-Iiu"; */
-"pi6-cq-Iiu.normalTitle" = "Monday";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "pjd-qV-nIO"; */
 "pjd-qV-nIO.text" = "Coming Soon!";
@@ -479,8 +467,14 @@
 /* Class = "UIButton"; normalTitle = "Fifth"; ObjectID = "q89-8g-0Rp"; */
 "q89-8g-0Rp.normalTitle" = "Fifth";
 
+/* Class = "UIButton"; normalTitle = "Rakshabandhan"; ObjectID = "qOe-dR-WpY"; */
+"qOe-dR-WpY.normalTitle" = "Rakshabandhan";
+
 /* Class = "UILabel"; text = "Week 2:"; ObjectID = "qZc-O2-Twq"; */
 "qZc-O2-Twq.text" = "Week 2:";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "rbG-rk-KsL"; */
+"rbG-rk-KsL.normalTitle" = "Done";
 
 /* Class = "UILabel"; text = "A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says \"Cha main\". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect."; ObjectID = "rl9-gN-3hI"; */
 "rl9-gN-3hI.text" = "A: In Rudrapuja, there are two parts in the Rudram chanting. One is which says 'Namo'. Mana means mind, which is derived from Manah in Sanskrit. The mind that goes outwards to experience the world is Manah. So, Namah is mind coming back to the source, where it finds everything is in terms of itself, everything is made up of one consciousness, one same principle. Then in second part, it says \"Cha main\". Me in English is derived from Main in Sanskrit - That means everything is me; my form and everything is for me. It is said, Sukhancha main, Mitrancha main, Abhayancha main: happiness, fearlessness, health; let all the good things in the universe come to me and they all are part of me. Immersing in the vibrations created by chanting of these ancient mantras is one of the most important aspect.";
@@ -495,13 +489,10 @@
 "sdG-Sm-sl6.normalTitle" = "Back";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "snG-M1-aJk"; */
-"snG-M1-aJk.normalTitle" = "Button";
+"snG-M1-aJk.normalTitle" = "Gowardhan";
 
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "t2Q-84-Iwq"; */
 "t2Q-84-Iwq.text" = "Coming Soon!";
-
-/* Class = "UILabel"; text = "What was the poison that Shiva drank to save the world which was produced by the ocean called?"; ObjectID = "tAl-3R-gNW"; */
-"tAl-3R-gNW.text" = "What was the poison that Shiva drank to save the world which was produced by the ocean called?";
 
 /* Class = "UILabel"; text = "FAQs"; ObjectID = "tJQ-Zw-xgt"; */
 "tJQ-Zw-xgt.text" = "FAQs";
@@ -509,11 +500,11 @@
 /* Class = "UILabel"; text = "Coming Soon!"; ObjectID = "tXd-OU-9fx"; */
 "tXd-OU-9fx.text" = "Coming Soon!";
 
+/* Class = "UIButton"; normalTitle = "Ashoka"; ObjectID = "u2B-sh-WrT"; */
+"u2B-sh-WrT.normalTitle" = "Ashoka";
+
 /* Class = "UIButton"; normalTitle = "Q:  How is Rudrapuja performed?"; ObjectID = "uPW-5I-SWJ"; */
 "uPW-5I-SWJ.normalTitle" = "Q:  How is Rudrapuja performed?";
-
-/* Class = "UILabel"; text = "Which leaf is the most used in Shravan to offer Shiv Lingam?"; ObjectID = "uc7-c9-3zy"; */
-"uc7-c9-3zy.text" = "Which leaf is the most used in Shravan to offer Shiv Lingam?";
 
 /* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "ufr-Yp-20B"; */
 "ufr-Yp-20B.placeholder" = "Enter Name";
@@ -524,17 +515,26 @@
 /* Class = "UIButton"; normalTitle = "Q:  What is Sankalp?"; ObjectID = "vt5-cS-KZ0"; */
 "vt5-cS-KZ0.normalTitle" = "Q:  What is Sankalp?";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xE2-Yw-Shl"; */
-"xE2-Yw-Shl.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Madhu Shravan"; ObjectID = "w3R-Rl-cgS"; */
+"w3R-Rl-cgS.normalTitle" = "Madhu Shravan";
+
+/* Class = "UIButton"; normalTitle = "Harish"; ObjectID = "xE2-Yw-Shl"; */
+"xE2-Yw-Shl.normalTitle" = "Harish";
 
 /* Class = "UIButton"; normalTitle = "Q:  How can I book a personal Rudrapuja?"; ObjectID = "y00-9h-Rje"; */
 "y00-9h-Rje.normalTitle" = "Q:  How can I book a personal Rudrapuja?";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y2V-Iw-5Tf"; */
-"y2V-Iw-5Tf.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Tuesday"; ObjectID = "y0l-mI-V1B"; */
+"y0l-mI-V1B.normalTitle" = "Tuesday";
+
+/* Class = "UIButton"; normalTitle = "Friday"; ObjectID = "yBH-pi-Wk8"; */
+"yBH-pi-Wk8.normalTitle" = "Friday";
 
 /* Class = "UIButton"; normalTitle = "Back"; ObjectID = "yXK-uA-f4d"; */
 "yXK-uA-f4d.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "On which festival does the Shravan end?"; ObjectID = "ysz-yR-jNU"; */
+"ysz-yR-jNU.text" = "On which festival does the Shravan end?";
 
 /* Class = "UILabel"; text = "Thank you for participating!"; ObjectID = "zPV-UU-e2A"; */
 "zPV-UU-e2A.text" = "Thank you for participating!";
@@ -544,6 +544,3 @@
 
 /* Class = "UIButton"; normalTitle = "Q: What is the significance of Panchamrita Rudrabhishekam?"; ObjectID = "zhp-iu-BBK"; */
 "zhp-iu-BBK.normalTitle" = "Q: What is the significance of Panchamrita Rudrabhishekam?";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zje-bP-87F"; */
-"zje-bP-87F.normalTitle" = "Button";

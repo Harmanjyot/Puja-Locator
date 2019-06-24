@@ -81,6 +81,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F29901922C14C1E002AA690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5F29901B22C14C2E002AA690 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		5F29901D22C14C55002AA690 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
 		5F3AD8D922AAC72E00796BD9 /* Puja Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puja Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AD8DC22AAC72E00796BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F3AD8DE22AAC72E00796BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,9 +147,6 @@
 		5FCA2FA222BF543400D1D162 /* endQuiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz2.swift; sourceTree = "<group>"; };
 		5FCA2FA422BF545000D1D162 /* endQuiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz3.swift; sourceTree = "<group>"; };
 		5FCA2FA622BF546300D1D162 /* endQuiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz4.swift; sourceTree = "<group>"; };
-		5FCA2FA922BFBEFE00D1D162 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		5FCA2FAB22BFBF4300D1D162 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Main.strings"; sourceTree = "<group>"; };
-		5FCA2FAD22BFBF7700D1D162 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
 		5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizMainPage.swift; sourceTree = "<group>"; };
 		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -527,9 +527,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F3AD8E122AAC72E00796BD9 /* Base */,
-				5FCA2FA922BFBEFE00D1D162 /* en */,
-				5FCA2FAB22BFBF4300D1D162 /* mr-IN */,
-				5FCA2FAD22BFBF7700D1D162 /* hi */,
+				5F29901922C14C1E002AA690 /* en */,
+				5F29901B22C14C2E002AA690 /* mr-IN */,
+				5F29901D22C14C55002AA690 /* hi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
