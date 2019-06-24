@@ -40,9 +40,8 @@ class endQuiz1: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        l1.text = "".localizableString(loc: strLan)
-        l2.text = "".localizableString(loc: strLan)
-        b1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
+        l1.text = "thanks".localizableString(loc: strLan)
+        b1.setTitle("back".localizableStringFAQ(loc: strLan), for: .normal)
         
     }
     

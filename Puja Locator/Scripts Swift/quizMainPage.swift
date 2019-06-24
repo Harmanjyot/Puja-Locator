@@ -14,10 +14,10 @@ import Foundation
 let df = DateFormatter()
 let calendar = Calendar.current
 let rightNow = Date()
-let week1Quiz = "June 23, 2019"
-let week2Quiz = "June 23, 2019"
-let week3Quiz = "June 23, 2019"
-let week4Quiz = "June 23, 2019"
+let week1Quiz = "July 01, 2019"
+let week2Quiz = "July 08, 2019"
+let week3Quiz = "July 15, 2019"
+let week4Quiz = "July 22, 2019"
 
 
 var quiz1Done: Bool!
@@ -104,23 +104,23 @@ class quizMainPage: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        buttonWeek1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        buttonWeek2.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        buttonWeek3.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        buttonWeek4.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        head.text = "".localizableString(loc: strLan)
-        w1.text = "faqQ1".localizableStringMain(loc: strLan)
-        w2.text = "faqQ1".localizableStringMain(loc: strLan)
-        w3.text = "faqQ1".localizableStringMain(loc: strLan)
-        w4.text = "faqQ1".localizableStringMain(loc: strLan)
-        l1.text = "faqQ1".localizableStringMain(loc: strLan)
-        l2.text = "faqQ1".localizableStringMain(loc: strLan)
-        l3.text = "faqQ1".localizableStringMain(loc: strLan)
-        l4.text = "faqQ1".localizableStringMain(loc: strLan)
-        d1.text = "faqQ1".localizableStringMain(loc: strLan)
-        d2.text = "faqQ1".localizableStringMain(loc: strLan)
-        d3.text = "faqQ1".localizableStringMain(loc: strLan)
-        d4.text = "faqQ1".localizableStringMain(loc: strLan)
+        buttonWeek1.setTitle("Play".localizableStringFAQ(loc: strLan), for: .normal)
+        buttonWeek2.setTitle("Play".localizableStringFAQ(loc: strLan), for: .normal)
+        buttonWeek3.setTitle("Play".localizableStringFAQ(loc: strLan), for: .normal)
+        buttonWeek4.setTitle("Play".localizableStringFAQ(loc: strLan), for: .normal)
+        head.text = "Quiz".localizableString(loc: strLan)
+        w1.text = "Week 1:".localizableStringMain(loc: strLan)
+        w2.text = "Week 2:".localizableStringMain(loc: strLan)
+        w3.text = "Week 3:".localizableStringMain(loc: strLan)
+        w4.text = "Week 4:".localizableStringMain(loc: strLan)
+        l1.text = "Time:".localizableStringMain(loc: strLan)
+        l2.text = "Time:".localizableStringMain(loc: strLan)
+        l3.text = "Time:".localizableStringMain(loc: strLan)
+        l4.text = "Time:".localizableStringMain(loc: strLan)
+        d1.text = "01 July".localizableStringMain(loc: strLan)
+        d2.text = "08 July".localizableStringMain(loc: strLan)
+        d3.text = "15 July".localizableStringMain(loc: strLan)
+        d4.text = "22 July".localizableStringMain(loc: strLan)
     }
   
     func getTestConditions() {

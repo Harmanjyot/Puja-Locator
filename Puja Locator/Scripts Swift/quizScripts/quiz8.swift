@@ -38,6 +38,7 @@ class quiz8: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        score = 0
         langSet(langFAQ: langsetquiz)
 
         // Do any additional setup after loading the view.
@@ -75,21 +76,21 @@ class quiz8: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        b1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b2.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b3.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b4.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        b11.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b12.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b13.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b14.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        b21.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b22.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b23.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b24.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        text1.text = "".localizableString(loc: strLan)
-        text2.text = "".localizableString(loc: strLan)
-        text3.text = "".localizableString(loc: strLan)
+        b1.setTitle("Fourth".localizableStringFAQ(loc: strLan), for: .normal)
+        b2.setTitle("Fifth".localizableStringFAQ(loc: strLan), for: .normal)
+        b3.setTitle("Sixth".localizableStringFAQ(loc: strLan), for: .normal)
+        b4.setTitle("Seventh".localizableStringFAQ(loc: strLan), for: .normal)
+        b11.setTitle("Cyanide".localizableStringFAQ(loc: strLan), for: .normal)
+        b12.setTitle("Arsenic".localizableStringFAQ(loc: strLan), for: .normal)
+        b13.setTitle("Sarin".localizableStringFAQ(loc: strLan), for: .normal)
+        b14.setTitle("Halahala".localizableStringFAQ(loc: strLan), for: .normal)
+        b21.setTitle("Tulsi".localizableStringFAQ(loc: strLan), for: .normal)
+        b22.setTitle("Belpatra".localizableStringFAQ(loc: strLan), for: .normal)
+        b23.setTitle("Neem".localizableStringFAQ(loc: strLan), for: .normal)
+        b24.setTitle("Ashoka".localizableStringFAQ(loc: strLan), for: .normal)
+        text1.text = "Shravan falls in which month of the Hindu calendar?".localizableString(loc: strLan)
+        text2.text = "What was the poison that Shiva drank to save the world which was produced by the ocean called?".localizableString(loc: strLan)
+        text3.text = "Which leaf is the most used in Shravan to offer Shiv Lingam?".localizableString(loc: strLan)
         
     }
     
@@ -191,13 +192,18 @@ class quiz8: UIViewController {
     }
     
     @IBAction func DONE(_ sender: Any) {
-        score = score + seconds
-        performSegue(withIdentifier: "quiz5Segue", sender: nil)
+        if score == 0 {
+            score = 0
+        } else {
+            score = score + seconds
+        }
+        
+        performSegue(withIdentifier: "quiz8Segue", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "quiz8Segue"{
-            guard let langquiz = segue.destination as? quiz9 else {return}
+            guard let langquiz = segue.destination as? endQuiz4 else {return}
             langquiz.langsetquiz = langsetquiz
             langquiz.PhoneNo = PhoneNo
             langquiz.EmailID = EmailID

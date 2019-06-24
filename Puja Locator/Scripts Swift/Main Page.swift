@@ -27,6 +27,11 @@ class Main_Page: UIViewController {
     @IBOutlet weak var stripLbl: UILabel!
     @IBOutlet weak var quizLbl: UIButton!
     
+    @IBOutlet weak var text1: UILabel!
+    @IBOutlet weak var text2: UILabel!
+    @IBOutlet weak var text3: UILabel!
+    
+    
     @IBOutlet weak var navBar: UINavigationItem!
     
     override func viewDidLoad() {
@@ -152,11 +157,20 @@ class Main_Page: UIViewController {
         topHead.text = "mainHead".localizableStringMain(loc: strLan)
         stripLbl.text = "mainpgLabl".localizableStringMain(loc: strLan)
         quizLbl.setTitle("quizMainpg".localizableStringMain(loc: strLan), for: .normal)
+        text1.text = "Request".localizableString(loc: strLan)
+        text2.text = "Chanting".localizableString(loc: strLan)
+        text3.text = "FAQs".localizableString(loc: strLan)
     }
     
     func setPreferences(){
         defaults.set(langMain, forKey: "langNumberMain")
     }
     
-
+    @IBAction func requestButton(_ sender: Any) {
+        let alertController = UIAlertController(title: "Coming Soon!", message: "This option will be available soon!", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+        self.present(alertController, animated: true, completion: nil)
+        
+    }
+    
 }

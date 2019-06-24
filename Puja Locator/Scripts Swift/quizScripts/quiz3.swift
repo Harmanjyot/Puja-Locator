@@ -36,6 +36,7 @@ class quiz3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        score = 0
         langquiz3 = langsetquiz
         langSet(langFAQ: langquiz3)
 
@@ -76,16 +77,16 @@ class quiz3: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        b1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b2.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b3.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b4.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        b11.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b12.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b13.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b14.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        text1.text = "".localizableString(loc: strLan)
-        text2.text = "".localizableString(loc: strLan)
+        b1.setTitle("Rudra".localizableStringFAQ(loc: strLan), for: .normal)
+        b2.setTitle("Mahakala".localizableStringFAQ(loc: strLan), for: .normal)
+        b3.setTitle("Mahadev".localizableStringFAQ(loc: strLan), for: .normal)
+        b4.setTitle("Ardanarishwara".localizableStringFAQ(loc: strLan), for: .normal)
+        b11.setTitle("Trimurti".localizableStringFAQ(loc: strLan), for: .normal)
+        b12.setTitle("Indian".localizableStringFAQ(loc: strLan), for: .normal)
+        b13.setTitle("Bhagavad Gita".localizableStringFAQ(loc: strLan), for: .normal)
+        b14.setTitle("Goa".localizableStringFAQ(loc: strLan), for: .normal)
+        text1.text = "In which form is Shiva known as Lord of Time?".localizableString(loc: strLan)
+        text2.text = "Shiva is the destroyer of evil and the transformer within the...?".localizableString(loc: strLan)
         
     }
     
@@ -155,7 +156,12 @@ class quiz3: UIViewController {
     }
     
     @IBAction func done(_ sender: Any) {
-        score = score + seconds
+        if score == 0 {
+            score = 0
+        } else {
+            score = score + seconds
+        }
+        
         performSegue(withIdentifier: "quiz3Segue", sender: nil)
     }
     

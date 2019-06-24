@@ -208,7 +208,7 @@
 
 "Cyanide" = "Cyanide";
 
-"hiva is the destroyer of evil and the transformer within the...?" = "Shiva is the destroyer of evil and the transformer within the...?";
+"Shiva is the destroyer of evil and the transformer within the...?" = "Shiva is the destroyer of evil and the transformer within the...?";
 
 "Kalash Sthapana" = "Kalash Sthapana";
 
@@ -323,10 +323,16 @@
 
 "15 July" = "15 July";
 
-"Time:" = "Time:";
+"Time:" = "Date:";
 
 "Sumeru" = "Sumeru";
 
 "Gowardhan" = "Gowardhan";
 
-"Amarnath Cave" = "Amarnath Cave"
+"Amarnath Cave" = "Amarnath Cave";
+
+//kjufheiuwefgrtghytrjuy
+
+"Play" = "       Play";
+
+"Quiz" = "Quiz";

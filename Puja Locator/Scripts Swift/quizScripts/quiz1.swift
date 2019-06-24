@@ -43,7 +43,7 @@ class quiz1: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        score = 0
         langquiz1 = langsetquiz1
         langSet(langFAQ: langquiz1)
     }
@@ -79,16 +79,16 @@ class quiz1: UIViewController {
     }
     
     func changeLang(strLan: String) {
-        b1.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b2.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b3.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b4.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        b11.setTitle("faqQ1".localizableStringFAQ(loc: strLan), for: .normal)
-        b12.setTitle("faqQ2".localizableStringFAQ(loc: strLan), for: .normal)
-        b13.setTitle("faqQ3".localizableStringFAQ(loc: strLan), for: .normal)
-        b14.setTitle("faqQ11".localizableStringFAQ(loc: strLan), for: .normal)
-        text1.text = "".localizableString(loc: strLan)
-        text2.text = "".localizableString(loc: strLan)
+        b1.setTitle("Haridwar".localizableStringFAQ(loc: strLan), for: .normal)
+        b2.setTitle("Harvest".localizableStringFAQ(loc: strLan), for: .normal)
+        b3.setTitle("Harish".localizableStringFAQ(loc: strLan), for: .normal)
+        b4.setTitle("Harman".localizableStringFAQ(loc: strLan), for: .normal)
+        b11.setTitle("Water Melon".localizableStringFAQ(loc: strLan), for: .normal)
+        b12.setTitle("Lemon".localizableStringFAQ(loc: strLan), for: .normal)
+        b13.setTitle("Cactus".localizableStringFAQ(loc: strLan), for: .normal)
+        b14.setTitle("Coconut".localizableStringFAQ(loc: strLan), for: .normal)
+        text1.text = "My first three is another name for the hindu god Shiva. my last four create something to wear. Toogether I might use a scythe. What am I?".localizableString(loc: strLan)
+        text2.text = "It has three eyes, but is no Shiva; it lives on top of a tree, but it is no bird; it is full of water, but it is no a pot.".localizableString(loc: strLan)
         
     }
 
@@ -158,7 +158,12 @@ class quiz1: UIViewController {
     }
     
     @IBAction func done(_ sender: Any) {
-        score = score + seconds
+        if score == 0 {
+            score = 0
+        } else {
+            score = score + seconds
+        }
+        
         performSegue(withIdentifier: "quiz1Segue", sender: nil)
     }
     
