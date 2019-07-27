@@ -54,6 +54,7 @@
 		5FCA2FA522BF545000D1D162 /* endQuiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA422BF545000D1D162 /* endQuiz3.swift */; };
 		5FCA2FA722BF546300D1D162 /* endQuiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA2FA622BF546300D1D162 /* endQuiz4.swift */; };
 		5FD1F52B22B0FBDE002C6B14 /* quizMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */; };
+		5FD5BE7922EC43B900B002DE /* requestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5BE7822EC43B900B002DE /* requestPage.swift */; };
 		5FF8329922ACBF3B000894E7 /* ChantingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8329822ACBF3B000894E7 /* ChantingPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +137,7 @@
 		5FCA2FA422BF545000D1D162 /* endQuiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz3.swift; sourceTree = "<group>"; };
 		5FCA2FA622BF546300D1D162 /* endQuiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endQuiz4.swift; sourceTree = "<group>"; };
 		5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizMainPage.swift; sourceTree = "<group>"; };
+		5FD5BE7822EC43B900B002DE /* requestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestPage.swift; sourceTree = "<group>"; };
 		5FF8329822ACBF3B000894E7 /* ChantingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,6 +230,7 @@
 				5F659AD322ABC68F00EDDEA5 /* FAQs.swift */,
 				5FD1F52A22B0FBDE002C6B14 /* quizMainPage.swift */,
 				5F4216B022AEC64A0089E365 /* Settings.swift */,
+				5FD5BE7822EC43B900B002DE /* requestPage.swift */,
 			);
 			path = "Scripts Swift";
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				5FCA2FA322BF543400D1D162 /* endQuiz2.swift in Sources */,
 				5FAFCDC022BEA2C4003BC78D /* quiz8.swift in Sources */,
 				5F9AD08622AFCF210046773C /* KalashSthapana.swift in Sources */,
+				5FD5BE7922EC43B900B002DE /* requestPage.swift in Sources */,
 				5F9AD0AD22B000D70046773C /* FAQ5.swift in Sources */,
 				5F9AD08A22AFD0220046773C /* MahaRudraPuja.swift in Sources */,
 				5F9AD0B722B004FB0046773C /* FAQ10.swift in Sources */,
