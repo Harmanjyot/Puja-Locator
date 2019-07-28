@@ -16,6 +16,7 @@ var textvenue: String?
 var textDate: String?
 var textPuja: String?
 
+
 class requestPage: UIViewController {
     @IBOutlet weak var dateTextUI: UITextField!
     @IBOutlet weak var name: UITextField!
@@ -28,6 +29,8 @@ class requestPage: UIViewController {
    let pujaList = ["Rudra Puja", "Poohja"]
     private var datePicker: UIDatePicker!
 
+    var emailID: String?
+    var phoneNo: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,18 +78,11 @@ class requestPage: UIViewController {
             textDate = dateTextUI.text
             textPuja = pujaText.text
             
-            defaults.set(textReqname, forKey: "textReqname")
-            defaults.set(textarea, forKey: "textarea")
-            defaults.set(textReqmobile, forKey: "textReqmobile")
-            defaults.set(textvenue, forKey: "textvenue")
-            defaults.set(textDate, forKey: "textDate")
-            defaults.set(textPuja, forKey: "textPuja")
-            
-            let url = URL(string: "http://localhost/Puja%20Locator/register.php")
+            let url = URL(string: "http://localhost/Puja%20Locator/request.php")
             var request = URLRequest(url: url!)
             print(url)
             request.httpMethod = "POST"
-            let body = "name=\(textReqname!)&emailID=\(textarea!)&phoneNo=\(textReqmobile!)&city=\(textvenue!)"
+            let body = "name=\(textReqname!)&area=\(textarea!)&phoneNo=\(textReqmobile!)&venue=\(textvenue!)&date=\(textDate!)&puja=\(textPuja!)&phoneNoLog=\(phoneNo!)&emailID=\(emailID!)"
             request.httpBody = body.data(using: String.Encoding.utf8)
             
             URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in

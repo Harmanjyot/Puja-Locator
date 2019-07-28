@@ -62,6 +62,12 @@ class Main_Page: UIViewController {
             quizPage.EmailID = EmailID
             quizPage.PhoneNo = PhoneNo
         }
+        
+        else if segue.identifier == "requestSegue" {
+            guard let reqPage = segue.destination as? requestPage else {return}
+            reqPage.emailID = EmailID
+            reqPage.phoneNo = PhoneNo
+        }
             
         else if segue.identifier == "t1" {
             guard let langset = segue.destination as? RudraPuja else{return}
